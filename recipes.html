@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Partial-mash and extract recipes for
+	various beers brewed in small batches, including Milk Stouts, Russian
+	Imperial Stouts, IPAs, Belgian Speciality Ales, Wheat Ales, Dubbel, Saison
+	etc.">
+	<meta name="author"      content="Sharath Chandrashekhara">
+	
+	<title> Beer Recipes - Small Batch Homebrewing | Sharath Chandrashekhara </title>
+
+	<link rel="shortcut icon" href="assets/images/favicon.ico">
+	
+	<!-- Bootstrap -->
+	<link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
+	<!-- Icon font -->
+	<link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<!-- Fonts -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
+	<!-- Custom styles -->
+	<link rel="stylesheet" href="assets/css/styles.css">
+	<link rel="stylesheet" href="assets/css/patch-styles.css">
+	<link rel="stylesheet" href="assets/css/beer.css">
+	<!--[if lt IE 9]> <script src="assets/js/html5shiv.js"></script> <![endif]-->
+</head>
+<body class="recipes">
+<div id="wrapper">
+
+<header id="header">
+	<div id="head" class="parallax" parallax-speed="0">
+		<h1 id="logo" class="text-center">
+			<span class="title">Sharath Chandrashekhara</span>
+			<span class="tagline">Home Brewery<br>
+		</h1>
+	</div>
+
+	<nav class="navbar navbar-default navbar-sticky">
+		<div class="container-fluid">
+			
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+			</div>
+			
+			<div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+				
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="research.html">Research</a></li>
+					<li><a href="work.html">Work</a></li>
+					<li><a href="teaching.html">Teaching</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">More<b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="education.html">Education</a></li>
+							<li class="active"><a href="beer.html">Homebrewing Lab</a></li>
+							<li><a href="blog.html">Blog Post</a></li>
+						</ul>
+					</li>
+				</ul>
+			
+			</div><!--/.nav-collapse -->			
+		</div>	
+	</nav>
+</header>
+
+<main id="beer">
+	<div class="container">
+	
+		<!--
+		<div class="beerbg"> -->
+		<div class="row section topspace">
+			<div class="col-md-12">
+				<aside class="col-sm-4 sidebar sidebar-right">
+				<ul class="nav text-right nav-side">
+					<li><a href="#wit-2" onClick="gotoRecipe('wit-2')">Belgian Witbier-II</a></li>
+					<li><a href="#grape-ipa" onClick="gotoRecipe('grape-ipa')">Grapefruit Citra IPA</a></li>
+					<li><a href="#black-wit" onClick="gotoRecipe('black-wit')">Midnight Wit</a></li>
+					<li><a href="#hon-wit" onClick="gotoRecipe('hon-wit')">Cheri-Citron Wit</a></li>
+					<li><a href="#wit" onClick="gotoRecipe('wit')">Belgian Witbier</a></li>
+					<li><a href="#alt" onClick="gotoRecipe('alt')">German Red Ale (Altbier)</a></li>
+					<li><a href="#dubbel" onClick="gotoRecipe('dubbel')">Dubbel Trouble</a></li>
+					<li><a href="#choc-ms" onClick="gotoRecipe('choc-ms')">Double Chocolate Milk Stout</a></li>
+					<li><a href="#winter-saison"
+							onClick="gotoRecipe('winter-saison')">Spiced Winter Saison</a></li>
+					<li><a href="#bb-wheat" onClick="gotoRecipe('bb-wheat')">Blueberry Wheat</a></li>
+					<li><a href="#kbs" onClick="gotoRecipe('kbs')">Russian Imperial Stout (KBS Clone)</a></li>
+					<li><a href="#brown" onClick="gotoRecipe('brown')">Nutty Brown Ale</a></li>
+					<li><a href="#bel-pumpkin" onClick="gotoRecipe('bel-pumpkin')">Belgian Pumpkin Ale</a></li>
+					<li><a href="#cof-ms" onClick="gotoRecipe('cof-ms')">Vanilla Latte Stout</a></li>
+					<li><a href="#c2-ipa" onclick="gotoRecipe('c2-ipa')">Centennial/Cascade IPA</a></li>
+					<li><a href="#hon-gin" onClick="gotoRecipe('hon-gin')">Honey Ginger Ale</a></li>
+					<li><a href="#hon-org-wheat"
+							onClick="gotoRecipe('hon-org-wheat')">Honey Orange Wheat Ale</a></li>
+					<li><a href="#cof-wheat" onClick="gotoRecipe('cof-wheat')">Black Coffee Wheat</a></li>
+					<li><a href="#bourbon-port"
+							onClick="gotoRecipe('bourbon-port')">Bourbon Barrel Porter</a></li>
+					<li><a href="#org-hef" onClick="gotoRecipe('org-hef')">Orange Hefeweizen</a></li>
+					<li><a href="#rum-stout" onClick="gotoRecipe('rum-stout')">Rum Runner Stout</a></li>
+					<li><a href="#chinook-ipa" onClick="gotoRecipe('chinook-ipa')">Chinook IPA</a></li>
+					<a href="#" onClick="topFunction(); return false;" id="topBtn"
+						title="Recipe Menu"><i class="fa fa-arrow-circle-up"></i></a>
+				</ul>
+			</aside>
+			<!-- Article main content -->
+			<article class="col-sm-8 maincontent">
+				<a class="recipe" id="wit-2"> </a>
+				<h3>Belgian Witbier-II</h3>
+				<p class="lead text-justified text-muted"> 
+				Brewing...
+				</p>
+
+				<a class="recipe" id="grape-ipa"> </a>
+				<h3>Grapefruit Citra IPA</h3>
+				<p class="lead text-justified text-muted"> 
+				Coming up...
+				</p>
+
+				<a class="recipe" id="black-wit"> </a>
+				<h3>Midnight Wit</h3>
+				<p class="lead text-justified text-muted"> 
+				Coming up...
+				</p>
+
+				<a class="recipe" id="hon-wit"> </a>
+				<h3>Cheri-Citron Wit</h3>
+				<p class="lead text-justified text-muted"> 
+				Coming up...
+				</p>
+
+				<a class="recipe" id="wit"> </a>
+				<h3>Belgian Witbier</h3>
+				<p class="lead text-justified text-muted"> 
+				Coming up...
+				</p>
+
+				<a class="recipe" id="alt"> </a>
+				<h3>German Red Ale (Altbier)</h3>
+				<p class="lead text-justified text-muted"> 
+				An Altbier is fermented at ale temperatures but conditioned at
+				lager temperatures.
+				I do not have any lagering capabilities and my fridge is not big
+				enough to hold my secondaries. Nonetheless, I attempted brewing
+				this Altbier and lagered the bottled beer.
+				The result&mdash;a delicious caramelly red ale with
+				sweetness powered by Munich malt.<br>
+				
+				I made a small experiment with
+				this batch. A third of the bottles was lagered for three weeks, and
+				then, let them sit in room temperature for carbonation. The
+				second third of the
+				bottles, was carbonated at room temperature and then lagered for three
+				weeks. The last third of the bottles were in room temperate for
+				six
+				weeks and chilled just before drinking.
+				I will update the results of blind-tasting the three variations
+				of the beer.
+				</p>
+				<button type="button" onclick="toggleRecipe('german_red_ale')">Recipe</button>
+				<a target="_blank" href="assets/recipes/german_red_ale.xml" class="button">Download</a>
+				<br>
+				<div id="german_red_ale_div" style="display:none">
+					<div id="german_red_ale_sum"> </div>
+					<table id="german_red_ale_table"></table>
+				</div>
+				
+				<a class="recipe" id="dubbel"> </a>
+				<h3 id="dubbel">Dubbel Trouble</h3>
+				<p class="lead text-justified text-muted"> 
+				A Trappist style Belgian Dubbel. I brewed this with home made
+				Belgian Dark Candy. Copper red in color, extremely aromatic
+				infused with flavors from dark caramel and dry fruit.
+				I entered Amber Wave of Grains with this beer and received
+				very favorable reviews by the judges. The results can be seen
+				<a href="assets/awog-2017-results.pdf" target=_"blank">here</a>.
+				As the judges have pointed out, the beer was thinner for a
+				Dubbel and could
+				have been more maltier. The next time I brew this, I would add
+				some Munich and aromatic malts and perhaps increase my mash
+				temperatures. Otherwise, this was a perfect batch.
+				
+				</p>
+				<button type="button" onclick="toggleRecipe('dubbel_trouble')">Recipe</button>
+				<a target="_blank" href="assets/recipes/dubbel_trouble.xml" class="button">Download</a>
+				<br>
+				<div id="dubbel_trouble_div" style="display:none">
+					<div id="dubbel_trouble_sum"> </div>
+					<table id="dubbel_trouble_table"></table>
+				</div>
+
+				<a class="recipe" id="choc-ms"> </a>
+				<h3>Double Chocolate Milk Stout</h3>
+				<p class="lead text-justified text-muted"> 
+				A sweet stout powered with chocolate. Brewed with two kinds of
+				chocolate, added during boil and in the secondary, this is a
+				beer that puts chocolate dessert to shame.
+				Dark chocolate aroma you cannot miss with hints of
+				coffee and finishes with vanilla.
+				</p>
+				<button type="button"
+					onclick="toggleRecipe('chocolate_milk_stout')">Recipe</button>
+				<a target="_blank" href="assets/recipes/chocolate_milk_stout.xml" class="button">Download</a>
+				<br>
+				<div id="chocolate_milk_stout_div" style="display:none">
+					<div id="chocolate_milk_stout_sum"> </div>
+					<table id="chocolate_milk_stout_table"></table>
+				</div>
+
+				<a class="recipe" id="winter-saison"> </a>
+				<h3>Spiced Winter Saison</h3>
+				<p class="lead text-justified text-muted"> 
+				Saison brewed in Belgian style with some dark malts and Belgian
+				biscuit malt. The Beer is dark-amber to red in color, imparted by
+				the use of dehusked black malt. The toasty aroma from biscuit
+				malts with peppery hints makes a perfect winter saison! The
+				spicy, peppery character got more prominent with age.
+				</p>
+				<button type="button" onclick="toggleRecipe('spiced_saison')">Recipe</button>
+				<a target="_blank" href="assets/recipes/spiced_saison.xml" class="button">Download</a>
+				<br>
+				<div id="spiced_saison_div" style="display:none">
+					<div id="spiced_saison_sum"> </div>
+					<table id="spiced_saison_table"></table>
+				</div>
+
+				<a class="recipe" id="bb-wheat"> </a>
+				<h3>Blueberry Wheat</h3>
+				<p class="lead text-justified text-muted"> 
+				Tons of blueberry flavor in an American style fruit wheat beer.
+				I used frozen blueberries and the beer turned out to be deep
+				pink in color. By splitting the blueberries between secondary
+				and boil, it has both, the subtle flavor of blueberry and the
+				wine-like tartness.
+				</p>
+				<button type="button" onclick="toggleRecipe('blueberry_wheat')">Recipe</button>
+				<a target="_blank" href="assets/recipes/blueberry_wheat.xml" class="button">Download</a>
+				<br>
+				<div id="blueberry_wheat_div" style="display:none">
+					<div id="blueberry_wheat_sum"> </div>
+					<table id="blueberry_wheat_table"></table>
+				</div>
+
+				<a class="recipe" id="kbs"> </a>
+				<h3>Russian Imperial Stout (KBS Clone)</h3>
+				<p class="lead text-justified text-muted"> 
+				This started as a clone of the famous KBS beer. I didn't have 
+				some of the grains the original recipe called for.
+				So, I made a few substitutions
+				to create a similar, but different Imperial Stout,
+				infused with lots of chocolate and coffee, aged with bourbon
+				soaked oak cubes. This
+				beer is now sitting in secondary and I am expecting an ABV of
+				around 10&#37;. After transferring to the secondary, I bottle
+				conditioned the
+				extra beer for a couple of weeks and tasted them. Like the original KBS,
+				it has deep coffee and chocolate flavors, but the body is
+				much thinner (maybe because of dry yeast). If I have to brew this
+				again, I will add a little more flaked oats and two-row malt and mash
+				it at much lower temperatures.
+				</p>
+				<button type="button" onclick="toggleRecipe('kbs_clone')">Recipe</button>
+				<a target="_blank" href="assets/recipes/kbs_clone.xml" class="button">Download</a>
+				<br>
+				<div id="kbs_clone_div" style="display:none">
+					<div id="kbs_clone_sum"> </div>
+					<table id="kbs_clone_table"></table>
+				</div>
+
+				<a class="recipe" id="brown"> </a>
+				<h3>Nutty Brown Ale</h3>
+				<p class="lead text-justified text-muted"> 
+				This is an English style Brown Ale brewed with chocolate.
+				The subtle flavors from biscuit malt and chocolate blend very
+				well and make this a very drinkable beer. 
+				</p>
+				<button type="button" onclick="toggleRecipe('nutty_brown_ale')">Recipe</button>
+				<a target="_blank" href="assets/recipes/nutty_brown_ale.xml" class="button">Download</a>
+				<br>
+				<div id="nutty_brown_ale_div" style="display:none">
+					<div id="nutty_brown_ale_sum"> </div>
+					<table id="nutty_brown_ale_table"></table>
+				</div>
+
+				<a class="recipe" id="bel-pumpkin"> </a>
+				<h3>Belgian Pumpkin Ale</h3>
+				<p class="lead text-justified text-muted"> 
+				Pumpkin Ale brewed in Belgian style with lots of biscuity taste.
+				Although it lacked the flavors from the pumpkin spice flavors,
+				this turned out to be the favorite beer in my friend's circle!
+				If I have to brew this again, I will add a bit more pumpkin
+				spice, perhaps in the secondary.
+				</p>
+				<button type="button" onclick="toggleRecipe('belgian_pumpkin_ale')">Recipe</button>
+				<a target="_blank" href="assets/recipes/belgian_pumpkin_ale.xml" class="button">Download</a>
+				<br>
+				<div id="belgian_pumpkin_ale_div" style="display:none">
+					<div id="belgian_pumpkin_ale_sum"> </div>
+					<table id="belgian_pumpkin_ale_table"></table>
+				</div>
+								
+				<a class="recipe" id="cof-ms"> </a>
+				<h3>Vanilla Latte Stout</h3>
+				<p class="lead text-justified text-muted"> 
+				Here is a coffee milk stout with vanilla additions. It is a
+				delight for coffee lovers. A word of caution before brewing any milk
+				stouts: most of the brewing softwares treat lactose as a
+				fermentable while estimating the FG and ABV. To get the
+				desired ABV, you have to add more base malt. I did the same
+				mistake, and the beer was watered down. If I have to brew it
+				again, I will try to hit OG of 1.060, which will still keep the
+				ABV around 5.
+				</p>
+				<button type="button" onclick="toggleRecipe('latte_stout')">Recipe</button>
+				<a target="_blank" href="assets/recipes/latte_stout.xml" class="button">Download</a>
+				<br>
+				<div id="latte_stout_div" style="display:none">
+					<div id="latte_stout_sum"></div>
+					<table id="latte_stout_table"></table>
+				</div>
+
+				<a class="recipe" id="c2-ipa"> </a>
+				<h3>Centennial/Cascade IPA</h3>
+				<p class="lead text-justified text-muted"> 
+				Generously hopped, citrusy IPA. I used Centennial hops in the
+				secondary and the double-C IPA turned out to be great!
+				</p>
+				<button type="button"
+					onclick="toggleRecipe('centennial_cascade_ipa')">Recipe</button>
+				<a target="_blank" href="assets/recipes/centennial_cascade_ipa.xml" class="button">Download</a>
+				<br>
+				<div id="centennial_cascade_ipa_div" style="display:none">
+					<div id="centennial_cascade_ipa_sum"> </div>
+					<table id="centennial_cascade_ipa_table"></table>
+				</div>
+
+				<a class="recipe" id="hon-gin"> </a>
+				<h3>Honey Ginger Ale</h3>
+				<p class="lead text-justified text-muted"> 
+				Summer ale brewed with fresh ginger and honey malt.
+				With intense flavor of ginger and finishes with a
+				hint of honey, this makes a great summer ale.
+				I used both, wildflower honey as a late addition, and honey
+				malt to get the honey flavors. The recommended way to add honey
+				is to add it to the secondary after a complex pasteurization
+				procedure.
+				Maybe I will try that someday! I used Muntons dry yeast for
+				this and the beer turned out to be very cloudy. I wish I had
+				chosen a Safale-04 or 05 instead.
+				</p>
+				<button type="button" onclick="toggleRecipe('honey_ginger_ale')">Recipe</button>
+				<a target="_blank" href="assets/recipes/honey_ginger_ale.xml" class="button">Download</a>
+				<br>
+				<div id="honey_ginger_ale_div" style="display:none">
+					<div id="honey_ginger_ale_sum"></div>
+					<table id="honey_ginger_ale_table"></table>
+				</div>
+
+				<a class="recipe" id="hon-org-wheat"> </a>
+				<h3>Honey Orange Wheat Ale</h3>
+				<p class="lead text-justified text-muted"> 
+				Here is an American wheat beer with brewed with lots of orange
+				and honey. Another refreshing summer ale. I added sweet
+				orange peel to boil, orange zest, and the fruit to the secondary.
+				The result was a pleasant citrusy orange beer.
+				Although I brewed this as an extract beer, I did
+				manage to steep the honey malt at 155F. If I had to do this
+				again, I will partial mash the honey malt with a base malt to
+				get more honey character. 
+				</p>
+				<button type="button"
+					onclick="toggleRecipe('honey_orange_wheat_ale')">Recipe</button>
+				<a target="_blank" href="assets/recipes/honey_orange_wheat_ale.xml" class="button">Download</a>
+				<br>
+				<div id="honey_orange_wheat_ale_div" style="display:none">
+					<div id="honey_orange_wheat_ale_sum"> </div>
+					<table id="honey_orange_wheat_ale_table"></table>
+				</div>
+				
+				<a class="recipe" id="cof-wheat"> </a>
+				<h3>Black Coffee Wheat</h3>
+				<p class="lead text-justified text-muted"> 
+				Dunkelweizen style dark wheat with a hint of coffee flavor. The
+				coffee flavor was exclusively from the roasted malts. I
+				substituted Carafa with a dehusked version on the suggestion of
+				my local homebrew shop and the beer turned out to be a great
+				Dunkelweizen! 
+				</p>
+				<button type="button" onclick="toggleRecipe('black_coffee_wheat')">Recipe</button>
+				<a target="_blank" href="assets/recipes/black_coffee_wheat.xml" class="button">Download</a>
+				<br>
+				<div id="black_coffee_wheat_div" style="display:none">
+					<div id="black_coffee_wheat_sum"> </div>
+					<table id="black_coffee_wheat_table"></table>
+				</div>
+
+				<a class="recipe" id="bourbon-port"> </a>
+				<h3>Bourbon Barrel Porter</h3>
+				<p class="lead text-justified text-muted"> 
+				This is an imperial porter aged with oak cubes and bourbon.
+				I brewed this with an extract kit I bought from Northern
+				Brewer. I decided to experiment a bit by adding some vanilla
+				extract to the secondary. This was a great tasting stout with
+				lots of bourbon and oak flavor.
+				</p>
+				<button type="button" onclick="toggleRecipe('bourbon_porter')">Recipe</button>
+				<a target="_blank" href="assets/recipes/bourbon_porter.xml" class="button">Download</a>
+				<br>
+				<div id="bourbon_porter_div" style="display:none">
+					<div id="bourbon_porter_sum"> </div>
+					<table id="bourbon_porter_table"></table>
+				</div>
+
+				<a class="recipe" id="org-hef"> </a>
+				<h3>Orange Hefeweizen</h3>
+				<p class="lead text-justified text-muted"> 
+				Hefeweizen with a twist. I brewed this beer from a recipe kit I
+				purchased from Northern Brewer. I decided to add some spice to
+				the beer and dropped small sweet peels at the end of the boil
+				and I loved it!
+				If I have to do it again, I will add even more
+				orange peels!
+				</p>
+				<button type="button" onclick="toggleRecipe('orange_hefeweizen')">Recipe</button>
+				<a target="_blank" href="assets/recipes/orange_hefeweizen.xml" class="button">Download</a>
+				<br>
+				<div id="orange_hefeweizen_div" style="display:none">
+					<div id="orange_hefeweizen_sum"> </div>
+					<table id="orange_hefeweizen_table"></table>
+				</div>
+				
+				<a class="recipe" id="rum-stout"> </a>
+				<h3>Rum Runner Stout</h3>
+				<p class="lead text-justified text-muted"> 
+				This is a real big beer and one of the best beers I have brewed,
+				again, brewed with the recipe kit I purchased from Northern
+				Brewer. A very vigorous fermentation activity called for using a
+				blow off tube. I added captain morgan spiced rum in the
+				secondary.
+				</p>
+				<button type="button" onclick="toggleRecipe('rum_runner_stout')">Recipe</button>
+				<a target="_blank" href="assets/recipes/rum_runner_stout.xml" class="button">Download</a>
+				<br>
+				<div id="rum_runner_stout_div" style="display:none">
+					<div id="rum_runner_stout_sum"> </div>
+					<table id="rum_runner_stout_table"></table>
+				</div>
+
+				<a class="recipe" id="chinook-ipa"> </a>
+				<h3>Chinook IPA</h3>
+				<p class="lead text-justified text-muted"> 
+				This is the first beer I brewed. This came with the 1 gallon
+				brewing kit I purchased from Northern Brewer. I ended with a lot
+				lesser beer than I was supposed to as I did not take in to
+				account water boil off rate. The result was a delicious thick
+				beer with lots of hops aroma.
+				</p>
+				<button type="button" onclick="toggleRecipe('chinook_ipa')">Recipe</button>
+				<a target="_blank" href="assets/recipes/chinook_ipa.xml" class="button">Download</a>
+				<br>
+				<div id="chinook_ipa_div" style="display:none">
+					<div id="chinook_ipa_sum"> </div>
+					<table id="chinook_ipa_table"></table>
+				</div>
+				<br>
+			</div>
+		</div> <!-- / section -->
+		
+</main>
+
+<footer id="underfooter">
+	<div class="container">
+		<div class="row">
+			
+			<div class="col-md-6 widget">
+				<div class="widget-body">
+					<img class="img" src="assets/images/ub-logo.png" alt="">
+				</div>
+			</div>
+
+			<div class="col-md-6 widget">
+				<div class="widget-body">
+					<p class="text-right">
+						Copyright &copy; 2017 Sharath Chandrashekhara<br> 
+						Design: <a href="http://www.gettemplate.com"
+							rel="designer" target="_blank">Initio by GetTemplate</a> </p>
+				</div>
+			</div>
+
+		</div> <!-- /row of widgets -->
+	</div>
+	</div>
+</footer>
+
+<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="assets/js/template.js"></script>
+<script src="assets/js/beer.js"></script>
+	</div>
+</body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+			Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47169664-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</html>

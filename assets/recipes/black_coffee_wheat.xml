@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RECIPE>
+    <AGE>14</AGE>
+    <FERMENTATION_STAGES>1</FERMENTATION_STAGES>
+    <BATCH_SIZE>3.7854117891320316</BATCH_SIZE>
+    <SECONDARY_TEMP>21.0</SECONDARY_TEMP>
+    <TYPE>Extract</TYPE>
+    <BOIL_SIZE>4.731764736415039</BOIL_SIZE>
+    <TERTIARY_TEMP>21.0</TERTIARY_TEMP>
+    <DISPLAY_OG>0.0</DISPLAY_OG>
+    <NAME>Black Coffee Wheat</NAME>
+    <FG>1.009</FG>
+    <EQUIPMENT/>
+    <SECONDARY_AGE>0</SECONDARY_AGE>
+    <PRIMARY_AGE>14</PRIMARY_AGE>
+    <OG>1.052</OG>
+    <VERSION>1</VERSION>
+    <PRIMARY_TEMP>21.0</PRIMARY_TEMP>
+    <NOTES>Not sure if the hops were Hallertau or Hallertau Mittlefruh.
+Exact weight of the hops to be measured</NOTES>
+    <DISPLAY_FG>0.0</DISPLAY_FG>
+    <BREWER/>
+    <TERTIARY_AGE>0</TERTIARY_AGE>
+    <BOIL_TIME>60</BOIL_TIME>
+    <EFFICIENCY>100.0</EFFICIENCY>
+    <HOPS>
+      <HOP>
+        <NAME>Hallertau</NAME>
+        <VERSION>0</VERSION>
+        <ALPHA>2.5</ALPHA>
+        <AMOUNT>0.00793787</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>45</TIME>
+        <NOTES>No description</NOTES>
+        <TYPE>Hop</TYPE>
+        <FORM>Pellet</FORM>
+      </HOP>
+      <HOP>
+        <NAME>Hallertau</NAME>
+        <VERSION>0</VERSION>
+        <ALPHA>2.5</ALPHA>
+        <AMOUNT>0.00396893</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>10</TIME>
+        <NOTES>No description</NOTES>
+        <TYPE>Hop</TYPE>
+        <FORM>Pellet</FORM>
+      </HOP>
+    </HOPS>
+    <FERMENTABLES>
+      <FERMENTABLE>
+        <NAME>Wheat DME</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Extract</TYPE>
+        <AMOUNT>0.3628739</AMOUNT>
+        <YIELD>93.04999999999984</YIELD>
+        <COLOR>3.299999952316284</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Pilsen Light DME</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Extract</TYPE>
+        <AMOUNT>0.18143695</AMOUNT>
+        <YIELD>90.87999999999992</YIELD>
+        <COLOR>1.899999976158142</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Carafa Special III</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Grain</TYPE>
+        <AMOUNT>0.0499092558983666</AMOUNT>
+        <YIELD>69.5652173913044</YIELD>
+        <COLOR>500.0</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Chocolate Wheat Malt</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Grain</TYPE>
+        <AMOUNT>0.02494758</AMOUNT>
+        <YIELD>71.40999999999977</YIELD>
+        <COLOR>400.0</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Crystal 80L</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Grain</TYPE>
+        <AMOUNT>0.02494758</AMOUNT>
+        <YIELD>73.5700000000001</YIELD>
+        <COLOR>80.0</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+    </FERMENTABLES>
+    <MISCS/>
+    <YEASTS>
+      <YEAST>
+        <NAME>Safbrew WB-06</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Yeast</TYPE>
+        <AMOUNT>0.0</AMOUNT>
+        <LABORATORY>Fermentis</LABORATORY>
+        <PRODUCT_ID>WB-06</PRODUCT_ID>
+        <MIN_TEMPERATURE>0</MIN_TEMPERATURE>
+        <MAX_TEMPERATURE>0</MAX_TEMPERATURE>
+        <ATTENUATION>80.0</ATTENUATION>
+      </YEAST>
+    </YEASTS>
+    <WATERS/>
+    <MASH>
+      <TUN_WEIGHT>160.00000000</TUN_WEIGHT>
+      <GRAIN_TEMP>22.22222220</GRAIN_TEMP>
+      <VERSION>1</VERSION>
+      <NAME>BIAB, Medium Body</NAME>
+      <NOTES>Brew in a bag method where the full boil volume is mashed within the boil vessel and then the grains are withdrawn at the end of the mash.  No active sparging is required.  This is a medium body beer profile.</NOTES>
+      <TUN_SPECIFIC_HEAT>0.30000000</TUN_SPECIFIC_HEAT>
+      <EQUIP_ADJUST>FALSE</EQUIP_ADJUST>
+      <TUN_TEMP>22.22222220</TUN_TEMP>
+      <SPARGE_TEMP>75.60000000</SPARGE_TEMP>
+      <PH>5.20000000</PH>
+      <MASH_STEPS>
+        <MASH_STEP>
+          <RAMP_TIME>10.00000000</RAMP_TIME>
+          <STEP_TEMP>66.70000000</STEP_TEMP>
+          <INFUSE_AMOUNT>4.83156915</INFUSE_AMOUNT>
+          <END_TIME>66.70000000</END_TIME>
+          <STEP_TIME>75.00000000</STEP_TIME>
+          <TYPE>Infusion</TYPE>
+          <VERSION>1</VERSION>
+          <NAME>Saccharification</NAME>
+        </MASH_STEP>
+        <MASH_STEP>
+          <RAMP_TIME>7.00000000</RAMP_TIME>
+          <STEP_TEMP>75.55555560</STEP_TEMP>
+          <INFUSE_AMOUNT>0.00000000</INFUSE_AMOUNT>
+          <END_TIME>75.55555560</END_TIME>
+          <STEP_TIME>10.00000000</STEP_TIME>
+          <TYPE>Temperature</TYPE>
+          <VERSION>1</VERSION>
+          <NAME>Mash Out</NAME>
+        </MASH_STEP>
+      </MASH_STEPS>
+    </MASH>
+    <STYLE>
+      <PROFILE>Aroma: Moderate to strong phenols (usually clove) and fruity esters (usually banana). The balance and intensity of the phenol and ester components can vary but the best examples are reasonably balanced and fairly prominent. Optionally, a low to moderate vanilla character and/or low bubblegum notes may be present, but should not dominate. Noble hop character ranges from low to none. A light to moderate wheat aroma (which might be perceived as bready or grainy) may be present and is often accompanied by a caramel, bread crust, or richer malt aroma (e.g., from Vienna and/or Munich malt). Any malt character is supportive and does not overpower the yeast character. No diacetyl or DMS. A light tartness is optional but acceptable. Appearance: Light copper to mahogany brown in color. A very thick, moussy, long-lasting off-white head is characteristic. The high protein content of wheat impairs clarity in this traditionally unfiltered style, although the level of haze is somewhat variable. The suspended yeast sediment (which should be roused before drinking) also contributes to the cloudiness. Flavor: Low to moderately strong banana and clove flavor. The balance and intensity of the phenol and ester components can vary but the best examples are reasonably balanced and fairly prominent. Optionally, a very light to moderate vanilla character and/or low bubblegum notes can accentuate the banana flavor, sweetness and roundness; neither should be dominant if present. The soft, somewhat bready or grainy flavor of wheat is complementary, as is a richer caramel and/or melanoidin character from Munich and/or Vienna malt. The malty richness can be low to medium-high, but shouldn’t overpower the yeast character. A roasted malt character is inappropriate. Hop flavor is very low to none, and hop bitterness is very low to low. A tart, citrusy character from yeast and high carbonation is sometimes present, but typically muted. Well rounded, flavorful, often somewhat sweet palate with a relatively dry finish. No diacetyl or DMS. Mouthfeel: Medium-light to medium-full body. The texture of wheat as well as yeast in suspension imparts the sensation of a fluffy, creamy fullness that may progress to a lighter finish, aided by moderate to high carbonation. The presence of Munich and/or Vienna malts also provide an additional sense of richness and fullness. Effervescent.</PROFILE>
+      <ABV_MIN>4.30000000</ABV_MIN>
+      <CARB_MAX>0.00000000</CARB_MAX>
+      <FG_MAX>1.01400000</FG_MAX>
+      <IBU_MAX>18.00000000</IBU_MAX>
+      <TYPE>Ale</TYPE>
+      <NAME>Dunkelweizen</NAME>
+      <STYLE_GUIDE>BJCP 2008</STYLE_GUIDE>
+      <OG_MIN>1.04400000</OG_MIN>
+      <CATEGORY>German Wheat and Rye Beer</CATEGORY>
+      <OG_MAX>1.05600000</OG_MAX>
+      <COLOR_MIN>14.00000000</COLOR_MIN>
+      <ABV_MAX>5.60000000</ABV_MAX>
+      <EXAMPLES>Weihenstephaner Hefeweissbier Dunkel, Ayinger Ur-Weisse, Franziskaner Dunkel Hefe-Weisse, Schneider Weisse (Original), Ettaler Weissbier Dunkel, Hacker-Pschorr Weisse Dark, Tucher Dunkles Hefe Weizen, Edelweiss Dunkel Weissbier, Erdinger Weissbier Dunkel, Kapuziner Weissbier Schwarz</EXAMPLES>
+      <INGREDIENTS>By German law, at least 50% of the grist must be malted wheat, although some versions use up to 70%; the remainder is usually Munich and/or Vienna malt. A traditional decoction mash gives the appropriate body without cloying sweetness. Weizen ale yeasts produce the typical spicy and fruity character, although extreme fermentation temperatures can affect the balance and produce off-flavors. A small amount of noble hops are used only for bitterness.</INGREDIENTS>
+      <FG_MIN>1.01000000</FG_MIN>
+      <STYLE_LETTER>B</STYLE_LETTER>
+      <VERSION>1</VERSION>
+      <NOTES>A moderately dark, spicy, fruity, malty, refreshing wheat-based ale. Reflecting the best yeast and wheat character of a hefeweizen blended with the malty richness of a Munich dunkel. Old-fashioned Bavarian wheat beer was often dark. In the 1950s and 1960s, wheat beers did not have a youthful image, since most older people drank them for their healthgiving qualities. Today, the lighter hefeweizen is more common. The presence of Munich and/or Vienna-type barley malts gives this style a deep, rich barley malt character not found in a hefeweizen. Bottles with yeast are traditionally swirled or gently rolled prior to serving.</NOTES>
+      <IBU_MIN>10.00000000</IBU_MIN>
+      <CARB_MIN>0.00000000</CARB_MIN>
+      <COLOR_MAX>23.00000000</COLOR_MAX>
+      <CATEGORY_NUMBER>15</CATEGORY_NUMBER>
+    </STYLE>
+  </RECIPE>

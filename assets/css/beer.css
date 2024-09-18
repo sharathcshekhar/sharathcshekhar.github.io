@@ -1,0 +1,94 @@
+#head {
+  background: #f4f4f4 url(../images/beer-bg.png) top center;
+  background-size: cover;
+  color: #7C7C7C;
+  padding: 30px 0 35px 0;
+  background-position: center;
+}
+
+.recipe {
+	display: block;
+	padding-top: 150px;
+	margin-top: -150px;
+}
+
+main#beer {
+    padding-bottom: 60px;
+    min-height: 100%;
+    margin: auto;
+    text-align: justify;
+    /* max-width: 800px; */
+}
+
+.beer #head {
+  padding: 90px 0;
+  background-position: top;
+}
+
+.beer #head .title {
+  font-size: 49px;
+  font-size: 3.0625rem;
+}
+.beer #head .tagline {
+  font-size: 16px;
+  font-size: 1rem;
+  margin: 15px 0 0;
+}
+
+button {
+	background-color: #555555;
+	border: none;
+	color: white;
+	padding: 4px 2px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	margin: 10px 10px;
+	cursor: pointer;
+	min-width: 100px;
+}
+
+a.button {
+	background-color: #555555;
+	border: none;
+	color: white;
+	padding: 4px 2px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	margin: 10px 10px;
+	min-width: 100px
+}
+
+table, th, td {
+	border: 1px solid;
+	padding-left: 5px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	background-color: lightyellow;
+}
+
+th {
+	text-align: center;
+}
+
+#topBtn {
+	display: none; /* Hidden by default */
+	position: fixed; /* Fixed/sticky position */
+	bottom: 20px; /* Place the button at the bottom of the page */
+	right: 30px; /* Place the button 30px from the right */
+	z-index: 99; /* Make sure it does not overlap */
+	color: #f4aac5; /* Text color */
+	cursor: pointer; /* Add a mouse pointer on hover */
+	font-size: 48px;
+}
+
+#topBtn:hover {
+	background-color: transparent;
+}
+
+.v-center {margin-top: 3em;}
+
