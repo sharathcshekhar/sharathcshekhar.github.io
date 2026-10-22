@@ -637,8 +637,8 @@ def build_site(output_dir: Path = DIST_DIR):
     if site_meta_path.exists():
         site = json.loads(site_meta_path.read_text(encoding="utf-8"))
 
-    # Support injecting contact email from environment (e.g. GitHub Secret SITE_EMAIL)
-    env_email = os.environ.get("SITE_EMAIL", "").strip()
+    # Support injecting contact email from environment (e.g. GitHub Secret EMAIL or SITE_EMAIL)
+    env_email = os.environ.get("EMAIL", "").strip() or os.environ.get("SITE_EMAIL", "").strip()
     if env_email:
         site["email"] = env_email
         if "social" in site and isinstance(site["social"], dict):
