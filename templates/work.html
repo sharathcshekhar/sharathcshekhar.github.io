@@ -1,0 +1,136 @@
+<div class="page-layout work-layout">
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="page-header-pill">Industry Experience</div>
+    <h1 class="page-title">{{ page.heading | default: "Work Experience" }}</h1>
+    <p class="page-tagline">{{ page.tagline }}</p>
+  </header>
+
+  <!-- Overview Card -->
+  <section class="content-card mb-8">
+    <div class="markdown-body">
+      {{ page.body_html | safe }}
+    </div>
+  </section>
+
+  <!-- Experience Timeline -->
+  <section class="timeline-section">
+    <div class="timeline-container">
+      {% for exp in page.experience %}
+        {% if exp.roles %}
+          <!-- Multi-Designation Company Container (e.g. SRA) -->
+          <div class="timeline-card company-container-card">
+            <div class="company-card-header">
+              <div class="company-title-group">
+                <h2 class="timeline-company">{{ exp.company }}</h2>
+                <span class="timeline-tenure">{{ exp.tenure | default: exp.period }}</span>
+              </div>
+              <div class="timeline-meta">
+                <span class="timeline-location">{{ exp.location }}</span>
+              </div>
+            </div>
+
+            <!-- Nested Designations Timeline -->
+            <div class="nested-roles-timeline">
+              {% for role in exp.roles %}
+                <div class="nested-role-item">
+                  <div class="role-marker">
+                    <span class="marker-dot"></span>
+                    <span class="marker-line"></span>
+                  </div>
+                  <div class="role-content">
+                    <div class="role-header">
+                      <div>
+                        {% if role.badge %}
+                          <span class="badge badge-accent">{{ role.badge }}</span>
+                        {% endif %}
+                        <h3 class="nested-role-title">{{ role.role }}</h3>
+                      </div>
+                      <span class="nested-role-period">{{ role.period }}</span>
+                    </div>
+
+                    {% if role.summary %}
+                      <p class="timeline-summary">{{ role.summary }}</p>
+                    {% endif %}
+
+                    {% if role.highlights %}
+                      <ul class="timeline-highlights">
+                        {% for hl in role.highlights %}
+                          <li>{{ hl }}</li>
+                        {% endfor %}
+                      </ul>
+                    {% endif %}
+
+                    {% if role.url %}
+                      <div class="role-link-wrapper">
+                        <a href="{{ role.url }}" class="btn btn-sm btn-ghost" target="_blank" rel="noopener">
+                          <span>Platform Documentation / Portal</span>
+                          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="13" height="13">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                            <polyline points="15 3 21 3 21 9"></polyline>
+                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                          </svg>
+                        </a>
+                      </div>
+                    {% endif %}
+                  </div>
+                </div>
+              {% endfor %}
+            </div>
+
+            {% if exp.url %}
+              <div class="timeline-footer">
+                <a href="{{ exp.url }}" class="btn btn-sm btn-ghost" target="_blank" rel="noopener">
+                  <span>Visit Company Website</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+              </div>
+            {% endif %}
+          </div>
+        {% else %}
+          <!-- Single-Role Experience Card -->
+          <div class="timeline-card">
+            <div class="timeline-card-header">
+              <div>
+                <span class="badge badge-accent">{{ exp.badge }}</span>
+                <h2 class="timeline-company">{{ exp.company }}</h2>
+                <p class="timeline-role">{{ exp.role }}</p>
+              </div>
+              <div class="timeline-meta">
+                <span class="timeline-period">{{ exp.period }}</span>
+                <span class="timeline-location">{{ exp.location }}</span>
+              </div>
+            </div>
+
+            <p class="timeline-summary">{{ exp.summary }}</p>
+
+            {% if exp.highlights %}
+              <ul class="timeline-highlights">
+                {% for hl in exp.highlights %}
+                  <li>{{ hl }}</li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+
+            {% if exp.url %}
+              <div class="timeline-footer">
+                <a href="{{ exp.url }}" class="btn btn-sm btn-ghost" target="_blank" rel="noopener">
+                  <span>Visit Company Website</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+              </div>
+            {% endif %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+</div>

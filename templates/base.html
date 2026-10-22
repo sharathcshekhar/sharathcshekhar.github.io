@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <meta name="author" content="{{ site.author }}">
+  <title>{{ page.title }} | {{ site.title }} - {{ site.institution }}</title>
+
+  <link rel="shortcut icon" href="{{ page.root }}assets/images/favicon.ico">
+
+  <!-- Google Fonts: Inter & Outfit & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Custom Design System -->
+  <link rel="stylesheet" href="{{ page.root }}assets/css/style.css">
+  {% if page.id == "beer" or page.id == "recipes" %}
+  <link rel="stylesheet" href="{{ page.root }}assets/css/beer.css">
+  {% endif %}
+
+  <!-- Prevent Theme Flash -->
+  <script>
+    (function() {
+      const savedTheme = localStorage.getItem('theme');
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const theme = savedTheme || (prefersDark ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
+</head>
+<body class="page-{{ page.id }}">
+  <div id="app">
+    {% include "components/navbar.html" %}
+
+    <main id="main-content" class="container">
+      {{ content | safe }}
+    </main>
+
+    {% include "components/footer.html" %}
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container" class="toast-container" aria-live="polite" aria-atomic="true"></div>
+
+  <!-- Scripts -->
+  <script src="{{ page.root }}assets/js/main.js"></script>
+  {% if page.id == "recipes" %}
+  <script src="{{ page.root }}assets/js/beer.js"></script>
+  {% endif %}
+</body>
+</html>

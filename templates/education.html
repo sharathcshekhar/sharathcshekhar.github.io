@@ -1,0 +1,93 @@
+<div class="page-layout education-layout">
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="page-header-pill">Education & Degrees</div>
+    <h1 class="page-title">{{ page.heading | default: "Academic Background" }}</h1>
+    <p class="page-tagline">{{ page.tagline }}</p>
+  </header>
+
+  <!-- Overview Card -->
+  <section class="content-card mb-8">
+    <div class="markdown-body">
+      {{ page.body_html | safe }}
+    </div>
+  </section>
+
+  <!-- Degrees List -->
+  <section class="degrees-section">
+    <div class="degrees-list">
+      {% for item in page.degrees %}
+        <div class="degree-card">
+          <div class="degree-card-header">
+            <div>
+              <span class="badge badge-primary">{{ item.badge }}</span>
+              <h2 class="degree-title">{{ item.degree }}</h2>
+              <h3 class="degree-institution">{{ item.institution }}</h3>
+            </div>
+            <div class="degree-meta">
+              <span class="degree-period">{{ item.period }}</span>
+              <span class="degree-location">{{ item.location }}</span>
+            </div>
+          </div>
+
+          {% if item.details %}
+            <ul class="degree-details">
+              {% for detail in item.details %}
+                <li>{{ detail }}</li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+
+          {% if item.featured_story %}
+            <!-- Featured Profile Subsection -->
+            <div class="degree-subsection story-spotlight-card">
+              <div class="story-spotlight-header">
+                <span class="badge badge-accent">{{ item.featured_story.badge | default: "Featured Profile" }}</span>
+                <span class="story-spotlight-source">{{ item.featured_story.source }}</span>
+              </div>
+              <h3 class="story-spotlight-title">
+                <a href="{{ item.featured_story.url }}" target="_blank" rel="noopener">
+                  {{ item.featured_story.title }}
+                </a>
+              </h3>
+              <p class="story-spotlight-desc">{{ item.featured_story.description }}</p>
+              <div class="story-spotlight-action">
+                <a href="{{ item.featured_story.url }}" class="btn btn-sm btn-outline" target="_blank" rel="noopener">
+                  <span>Read on UB Graduate School</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          {% endif %}
+
+          <div class="degree-footer">
+            {% if item.dissertation_url %}
+              <a href="{{ item.dissertation_url }}" class="btn btn-sm btn-primary" target="_blank" rel="noopener">
+                <span>PhD Dissertation (ACM DL)</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            {% endif %}
+            {% if item.url %}
+              <a href="{{ item.url }}" class="btn btn-sm btn-ghost" target="_blank" rel="noopener">
+                <span>{% if item.badge == "Doctorate" %}Department Website{% else %}Institution Website{% endif %}</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+</div>

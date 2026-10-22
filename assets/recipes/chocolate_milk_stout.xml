@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RECIPE>
+    <AGE>14</AGE>
+    <FERMENTATION_STAGES>1</FERMENTATION_STAGES>
+    <BATCH_SIZE>4.731764736415039</BATCH_SIZE>
+    <SECONDARY_TEMP>21.0</SECONDARY_TEMP>
+    <TYPE>Partial Mash</TYPE>
+    <BOIL_SIZE>6.624470630981055</BOIL_SIZE>
+    <TERTIARY_TEMP>21.0</TERTIARY_TEMP>
+    <DISPLAY_OG>0.0</DISPLAY_OG>
+    <NAME>Double Chocolate Milk Stout</NAME>
+    <FG>1.01</FG>
+    <EQUIPMENT/>
+    <SECONDARY_AGE>0</SECONDARY_AGE>
+    <PRIMARY_AGE>14</PRIMARY_AGE>
+    <OG>1.053</OG>
+    <VERSION>1</VERSION>
+    <PRIMARY_TEMP>21.0</PRIMARY_TEMP>
+    <NOTES/>
+    <DISPLAY_FG>0.0</DISPLAY_FG>
+    <BREWER/>
+    <TERTIARY_AGE>0</TERTIARY_AGE>
+    <BOIL_TIME>60</BOIL_TIME>
+    <EFFICIENCY>75.0</EFFICIENCY>
+    <HOPS>
+      <HOP>
+        <NAME>Nugget</NAME>
+        <VERSION>0</VERSION>
+        <ALPHA>14.1</ALPHA>
+        <AMOUNT>0.00283495</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>60</TIME>
+        <NOTES>No description</NOTES>
+        <TYPE>Hop</TYPE>
+        <FORM>Pellet</FORM>
+      </HOP>
+      <HOP>
+        <NAME>Goldings, East Kent</NAME>
+        <VERSION>0</VERSION>
+        <ALPHA>5.0</ALPHA>
+        <AMOUNT>0.0042524284747271325</AMOUNT>
+        <USE>First Wort</USE>
+        <TIME>60</TIME>
+        <NOTES>Floral, earthy, slightly sweet, spicy. Used for: British Ales</NOTES>
+        <TYPE>Hop</TYPE>
+        <FORM>Pellet</FORM>
+      </HOP>
+      <HOP>
+        <NAME>Goldings, East Kent</NAME>
+        <VERSION>0</VERSION>
+        <ALPHA>5.0</ALPHA>
+        <AMOUNT>0.002834952316484755</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>5</TIME>
+        <NOTES>Floral, earthy, slightly sweet, spicy. Used for: British Ales</NOTES>
+        <TYPE>Hop</TYPE>
+        <FORM>Pellet</FORM>
+      </HOP>
+    </HOPS>
+    <FERMENTABLES>
+      <FERMENTABLE>
+        <NAME>Pilsen DME</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Extract</TYPE>
+        <AMOUNT>0.22686025408348456</AMOUNT>
+        <YIELD>91.30434782608704</YIELD>
+        <COLOR>1.899999976158142</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Barley, Flaked</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Grain</TYPE>
+        <AMOUNT>0.11339809</AMOUNT>
+        <YIELD>69.23999999999988</YIELD>
+        <COLOR>1.7000000476837158</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Chocolate Wheat Malt</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Grain</TYPE>
+        <AMOUNT>0.11339809</AMOUNT>
+        <YIELD>71.40999999999977</YIELD>
+        <COLOR>375.0</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Crystal 80L</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Grain</TYPE>
+        <AMOUNT>0.11339809</AMOUNT>
+        <YIELD>73.5700000000001</YIELD>
+        <COLOR>80.0</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Milk Sugar</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Sugar</TYPE>
+        <AMOUNT>0.11339809</AMOUNT>
+        <YIELD>75.72999999999993</YIELD>
+        <COLOR>0.0</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Six-row (US)</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Grain</TYPE>
+        <AMOUNT>0.09071847</AMOUNT>
+        <YIELD>75.72999999999993</YIELD>
+        <COLOR>1.7999999523162842</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Wheat Dry Extract</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Extract</TYPE>
+        <AMOUNT>0.11343012704174228</AMOUNT>
+        <YIELD>95.65217391304358</YIELD>
+        <COLOR>8.0</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Carafa Special III</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Grain</TYPE>
+        <AMOUNT>0.03176043557168784</AMOUNT>
+        <YIELD>69.5652173913044</YIELD>
+        <COLOR>525.0</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+    </FERMENTABLES>
+    <MISCS>
+      <MISC>
+        <AMOUNT_IS_WEIGHT>false</AMOUNT_IS_WEIGHT>
+        <AMOUNT>0.02957350</AMOUNT>
+        <USE_FOR>Boil</USE_FOR>
+        <TYPE>Misc</TYPE>
+        <VERSION>1</VERSION>
+        <NOTES>Custom misc</NOTES>
+        <NAME>Chocolate Bittersweet</NAME>
+        <USE>Boil</USE>
+        <DISPLAY_AMOUNT>1.0 oz</DISPLAY_AMOUNT>
+        <DISPLAY_TIME>10 mins</DISPLAY_TIME>
+      </MISC>
+      <MISC>
+        <AMOUNT_IS_WEIGHT>false</AMOUNT_IS_WEIGHT>
+        <AMOUNT>0.02957350</AMOUNT>
+        <USE_FOR>Boil</USE_FOR>
+        <TYPE>Misc</TYPE>
+        <VERSION>1</VERSION>
+        <NOTES>Custom misc</NOTES>
+        <NAME>Cacao Nibs</NAME>
+        <USE>Secondary</USE>
+        <DISPLAY_AMOUNT>1.0 oz</DISPLAY_AMOUNT>
+        <DISPLAY_TIME>15 days</DISPLAY_TIME>
+      </MISC>
+    </MISCS>
+    <YEASTS>
+      <YEAST>
+        <NAME>Safale US-05</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Yeast</TYPE>
+        <AMOUNT>0.02</AMOUNT>
+        <LABORATORY>Fermentis</LABORATORY>
+        <PRODUCT_ID>US-05</PRODUCT_ID>
+        <MIN_TEMPERATURE>18</MIN_TEMPERATURE>
+        <MAX_TEMPERATURE>18</MAX_TEMPERATURE>
+        <ATTENUATION>80.0</ATTENUATION>
+      </YEAST>
+    </YEASTS>
+    <WATERS/>
+    <MASH>
+      <TUN_WEIGHT>160.00000000</TUN_WEIGHT>
+      <GRAIN_TEMP>22.22222220</GRAIN_TEMP>
+      <VERSION>1</VERSION>
+      <NAME>BIAB, Full Body</NAME>
+      <NOTES>Brew in a bag method where the full boil volume is mashed within the boil vessel and then the grains are withdrawn at the end of the mash.  No active sparging is required. This is a full body beer profile.</NOTES>
+      <TUN_SPECIFIC_HEAT>0.30000000</TUN_SPECIFIC_HEAT>
+      <EQUIP_ADJUST>FALSE</EQUIP_ADJUST>
+      <TUN_TEMP>22.22222220</TUN_TEMP>
+      <SPARGE_TEMP>75.60000000</SPARGE_TEMP>
+      <PH>5.20000000</PH>
+      <MASH_STEPS>
+        <MASH_STEP>
+          <RAMP_TIME>10.00000000</RAMP_TIME>
+          <STEP_TEMP>68.90000000</STEP_TEMP>
+          <INFUSE_AMOUNT>7.08714381</INFUSE_AMOUNT>
+          <END_TIME>68.90000000</END_TIME>
+          <STEP_TIME>60.00000000</STEP_TIME>
+          <TYPE>Infusion</TYPE>
+          <VERSION>1</VERSION>
+          <NAME>Saccharification</NAME>
+        </MASH_STEP>
+        <MASH_STEP>
+          <RAMP_TIME>7.00000000</RAMP_TIME>
+          <STEP_TEMP>75.55555560</STEP_TEMP>
+          <INFUSE_AMOUNT>0.00000000</INFUSE_AMOUNT>
+          <END_TIME>75.55555560</END_TIME>
+          <STEP_TIME>10.00000000</STEP_TIME>
+          <TYPE>Temperature</TYPE>
+          <VERSION>1</VERSION>
+          <NAME>Mash Out</NAME>
+        </MASH_STEP>
+      </MASH_STEPS>
+    </MASH>
+    <STYLE>
+      <PROFILE/>
+      <ABV_MIN>0.00000000</ABV_MIN>
+      <CARB_MAX>0.00000000</CARB_MAX>
+      <FG_MAX>1.02300000</FG_MAX>
+      <IBU_MAX>40.00000000</IBU_MAX>
+      <TYPE/>
+      <NAME>Milk Stout</NAME>
+      <STYLE_GUIDE/>
+      <OG_MIN>1.04200000</OG_MIN>
+      <CATEGORY/>
+      <OG_MAX>1.05600000</OG_MAX>
+      <COLOR_MIN>30.00000000</COLOR_MIN>
+      <ABV_MAX>100.00000000</ABV_MAX>
+      <EXAMPLES/>
+      <INGREDIENTS/>
+      <FG_MIN>1.01000000</FG_MIN>
+      <STYLE_LETTER/>
+      <VERSION>1</VERSION>
+      <NOTES/>
+      <IBU_MIN>25.00000000</IBU_MIN>
+      <CARB_MIN>0.00000000</CARB_MIN>
+      <COLOR_MAX>40.00000000</COLOR_MAX>
+      <CATEGORY_NUMBER/>
+    </STYLE>
+  </RECIPE>

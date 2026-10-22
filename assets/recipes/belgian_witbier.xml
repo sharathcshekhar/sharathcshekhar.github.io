@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RECIPE>
+    <AGE>14</AGE>
+    <FERMENTATION_STAGES>1</FERMENTATION_STAGES>
+    <BATCH_SIZE>4.731764736415039</BATCH_SIZE>
+    <SECONDARY_TEMP>21.0</SECONDARY_TEMP>
+    <TYPE>Partial Mash</TYPE>
+    <BOIL_SIZE>6.624470630981055</BOIL_SIZE>
+    <TERTIARY_TEMP>21.0</TERTIARY_TEMP>
+    <DISPLAY_OG>0.0</DISPLAY_OG>
+    <NAME>Belgian Witbier</NAME>
+    <FG>1.009</FG>
+    <EQUIPMENT/>
+    <SECONDARY_AGE>0</SECONDARY_AGE>
+    <PRIMARY_AGE>14</PRIMARY_AGE>
+    <OG>1.04</OG>
+    <VERSION>1</VERSION>
+    <PRIMARY_TEMP>21.0</PRIMARY_TEMP>
+    <NOTES/>
+    <DISPLAY_FG>0.0</DISPLAY_FG>
+    <BREWER/>
+    <TERTIARY_AGE>0</TERTIARY_AGE>
+    <BOIL_TIME>60</BOIL_TIME>
+    <EFFICIENCY>75.0</EFFICIENCY>
+    <HOPS>
+      <HOP>
+        <NAME>Centennial</NAME>
+        <VERSION>0</VERSION>
+        <ALPHA>7.8</ALPHA>
+        <AMOUNT>0.00283495</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>60</TIME>
+        <NOTES>No description</NOTES>
+        <TYPE>Hop</TYPE>
+        <FORM>Pellet</FORM>
+      </HOP>
+    </HOPS>
+    <FERMENTABLES>
+      <FERMENTABLE>
+        <NAME>Wheat DME</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Extract</TYPE>
+        <AMOUNT>0.31751466</AMOUNT>
+        <YIELD>80.06000000000016</YIELD>
+        <COLOR>3.0</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Wheat (Belgian)</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Grain</TYPE>
+        <AMOUNT>0.18143695</AMOUNT>
+        <YIELD>82.23000000000005</YIELD>
+        <COLOR>1.7999999523162842</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Barley, Flaked</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Grain</TYPE>
+        <AMOUNT>0.06803886</AMOUNT>
+        <YIELD>69.23999999999988</YIELD>
+        <COLOR>1.7000000476837158</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Flaked Oats</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Adjunct</TYPE>
+        <AMOUNT>0.06803886</AMOUNT>
+        <YIELD>71.40999999999977</YIELD>
+        <COLOR>2.200000047683716</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Two-row (US)</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Grain</TYPE>
+        <AMOUNT>0.06803886</AMOUNT>
+        <YIELD>80.06000000000016</YIELD>
+        <COLOR>1.7999999523162842</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+    </FERMENTABLES>
+    <MISCS/>
+    <YEASTS>
+      <YEAST>
+        <NAME>Belgian Witbier</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Yeast</TYPE>
+        <AMOUNT>0.12</AMOUNT>
+        <LABORATORY>Wyeast Labs</LABORATORY>
+        <PRODUCT_ID>3944</PRODUCT_ID>
+        <MIN_TEMPERATURE>20</MIN_TEMPERATURE>
+        <MAX_TEMPERATURE>20</MAX_TEMPERATURE>
+        <ATTENUATION>74.0</ATTENUATION>
+      </YEAST>
+    </YEASTS>
+    <WATERS/>
+    <MASH>
+      <TUN_WEIGHT>160.00000000</TUN_WEIGHT>
+      <GRAIN_TEMP>22.22222220</GRAIN_TEMP>
+      <VERSION>1</VERSION>
+      <NAME>BIAB, Full Body</NAME>
+      <NOTES>Brew in a bag method where the full boil volume is mashed within the boil vessel and then the grains are withdrawn at the end of the mash.  No active sparging is required. This is a full body beer profile.</NOTES>
+      <TUN_SPECIFIC_HEAT>0.30000000</TUN_SPECIFIC_HEAT>
+      <EQUIP_ADJUST>FALSE</EQUIP_ADJUST>
+      <TUN_TEMP>22.22222220</TUN_TEMP>
+      <SPARGE_TEMP>75.60000000</SPARGE_TEMP>
+      <PH>5.20000000</PH>
+      <MASH_STEPS>
+        <MASH_STEP>
+          <RAMP_TIME>10.00000000</RAMP_TIME>
+          <STEP_TEMP>68.90000000</STEP_TEMP>
+          <INFUSE_AMOUNT>7.01002416</INFUSE_AMOUNT>
+          <END_TIME>68.90000000</END_TIME>
+          <STEP_TIME>60.00000000</STEP_TIME>
+          <TYPE>Infusion</TYPE>
+          <VERSION>1</VERSION>
+          <NAME>Saccharification</NAME>
+        </MASH_STEP>
+        <MASH_STEP>
+          <RAMP_TIME>7.00000000</RAMP_TIME>
+          <STEP_TEMP>75.55555560</STEP_TEMP>
+          <INFUSE_AMOUNT>0.00000000</INFUSE_AMOUNT>
+          <END_TIME>75.55555560</END_TIME>
+          <STEP_TIME>10.00000000</STEP_TIME>
+          <TYPE>Temperature</TYPE>
+          <VERSION>1</VERSION>
+          <NAME>Mash Out</NAME>
+        </MASH_STEP>
+      </MASH_STEPS>
+    </MASH>
+    <STYLE>
+      <PROFILE>Aroma: Moderate sweetness (often with light notes of honey and/or vanilla) with light, grainy, spicy wheat aromatics, often with a bit of tartness. Moderate perfumy coriander, often with a complex herbal, spicy, or peppery note in the background. Moderate zesty, citrusy orangey fruitiness. A low spicy-herbal hop aroma is optional, but should never overpower the other characteristics. No diacetyl. Vegetal, celerylike, or ham-like aromas are inappropriate. Spices should blend in with fruity, floral and sweet aromas and should not be overly strong. Appearance: Very pale straw to very light gold in color. The beer will be very cloudy from starch haze and/or yeast, which gives it a milky, whitish-yellow appearance. Dense, white, moussy head. Head retention should be quite good. Flavor: Pleasant sweetness (often with a honey and/or vanilla character) and a zesty, orange-citrusy fruitiness. Refreshingly crisp with a dry, often tart, finish. Can have a low wheat flavor. Optionally has a very light lactic-tasting sourness. Herbalspicy flavors, which may include coriander and other spices, are common should be subtle and balanced, not overpowering. A spicy-earthy hop flavor is low to none, and if noticeable, never gets in the way of the spices. Hop bitterness is low to medium-low (as with a Hefeweizen), and doesn’t interfere with refreshing flavors of fruit and spice, nor does it persist into the finish. Bitterness from orange pith should not be present. Vegetal, celery-like, ham-like, or soapy flavors are inappropriate. No diacetyl. Mouthfeel: Medium-light to medium body, often having a smoothness and light creaminess from unmalted wheat and the occasional oats. Despite body and creaminess, finishes dry and often a bit tart. Effervescent character from high carbonation. Refreshing, from carbonation, light acidity, and lack of bitterness in finish. No harshness or astringency from orange pith. Should not be overly dry and thin, nor should it be thick and heavy.</PROFILE>
+      <ABV_MIN>4.50000000</ABV_MIN>
+      <CARB_MAX>0.00000000</CARB_MAX>
+      <FG_MAX>1.01200000</FG_MAX>
+      <IBU_MAX>20.00000000</IBU_MAX>
+      <TYPE>Mixed</TYPE>
+      <NAME>Witbier</NAME>
+      <STYLE_GUIDE>BJCP 2008</STYLE_GUIDE>
+      <OG_MIN>1.04400000</OG_MIN>
+      <CATEGORY>Belgian and French Ale</CATEGORY>
+      <OG_MAX>1.05200000</OG_MAX>
+      <COLOR_MIN>2.00000000</COLOR_MIN>
+      <ABV_MAX>5.50000000</ABV_MAX>
+      <EXAMPLES>Hoegaarden Wit, St. Bernardus Blanche, Celis White, Vuuve 5, Brugs Tarwebier (Blanche de Bruges), Wittekerke, Allagash White, Blanche de Bruxelles, Ommegang Witte, Avery White Rascal, Unibroue Blanche de Chambly, Sterkens White Ale, Bell’s Winter White Ale, Victory Whirlwind Witbier, Hitachino Nest White Ale</EXAMPLES>
+      <INGREDIENTS>About 50% unmalted wheat (traditionally soft white winter wheat) and 50% pale barley malt (usually Pils malt) constitute the grist. In some versions, up to 5-10% raw oats may be used. Spices of freshly-ground coriander and Curacao or sometimes sweet orange peel complement the sweet aroma and are quite characteristic. Other spices (e.g., chamomile, cumin, cinnamon, Grains of Paradise) may be used for complexity but are much less prominent. Ale yeast prone to the production of mild, spicy flavors is very characteristic. In some instances a very limited lactic fermentation, or the actual addition of lactic acid, is done.</INGREDIENTS>
+      <FG_MIN>1.00800000</FG_MIN>
+      <STYLE_LETTER>A</STYLE_LETTER>
+      <VERSION>1</VERSION>
+      <NOTES>A refreshing, elegant, tasty, moderatestrength wheat-based ale. A 400-year-old beer style that died out in the 1950s; it was later revived by Pierre Celis at Hoegaarden, and has grown steadily in popularity over time. The presence, character and degree of spicing and lactic sourness varies. Overly spiced and/or sour beers are not good examples of the style. Coriander of certain origins might give an inappropriate ham or celery character. The beer tends to be fragile and does not age well, so younger, fresher, properly handled examples are most desirable. Most examples seem to be approximately 5% ABV.</NOTES>
+      <IBU_MIN>10.00000000</IBU_MIN>
+      <CARB_MIN>0.00000000</CARB_MIN>
+      <COLOR_MAX>4.00000000</COLOR_MAX>
+      <CATEGORY_NUMBER>16</CATEGORY_NUMBER>
+    </STYLE>
+  </RECIPE>

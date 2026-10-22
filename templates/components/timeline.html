@@ -1,0 +1,28 @@
+<div class="timeline-item">
+  <div class="timeline-marker"></div>
+  <div class="timeline-content">
+    <div class="timeline-header">
+      <h3 class="timeline-title">{{ item.title }}</h3>
+      {% if item.badge %}
+        <span class="badge badge-secondary">{{ item.badge }}</span>
+      {% endif %}
+      <span class="timeline-period">{{ item.period }}</span>
+    </div>
+    {% if item.subtitle %}
+      <h4 class="timeline-subtitle">{{ item.subtitle }}</h4>
+    {% endif %}
+    {% if item.location %}
+      <p class="timeline-location">{{ item.location }}</p>
+    {% endif %}
+    {% if item.summary %}
+      <p class="timeline-summary">{{ item.summary }}</p>
+    {% endif %}
+    {% if item.highlights %}
+      <ul class="timeline-highlights">
+        {% for hl in item.highlights %}
+          <li>{{ hl }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+</div>

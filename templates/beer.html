@@ -1,0 +1,35 @@
+<div class="page-layout beer-layout">
+  <!-- Hero Banner -->
+  <section class="beer-hero">
+    <div class="beer-hero-card">
+      <div class="beer-hero-icon">
+        <img src="{{ page.logo | default: site.beer_logo }}" alt="Beer Glass" width="90" height="auto">
+      </div>
+      <div class="beer-hero-content">
+        <span class="badge badge-beer">Small-Batch Nano Brewery</span>
+        <h1 class="beer-hero-title">{{ page.heading | default: "Home Brewery Lab" }}</h1>
+        <p class="beer-hero-tagline">{{ page.tagline }}</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Story Content -->
+  <section class="content-card mb-8">
+    <div class="markdown-body">
+      {{ page.body_html | safe }}
+    </div>
+  </section>
+
+  <!-- Recipe CTA Banner -->
+  <section class="recipe-cta-banner">
+    <div class="cta-inner">
+      <div class="cta-text">
+        <h2>Explore All 22 Handcrafted Recipes</h2>
+        <p>View complete grain bills, hop schedules, yeast strains, and download BeerXML files.</p>
+      </div>
+      <a href="recipes.html" class="btn btn-beer-cta">
+        <span>View Recipe Book &rarr;</span>
+      </a>
+    </div>
+  </section>
+</div>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RECIPE>
+    <AGE>14</AGE>
+    <FERMENTATION_STAGES>1</FERMENTATION_STAGES>
+    <BATCH_SIZE>3.7854117891320316</BATCH_SIZE>
+    <SECONDARY_TEMP>21.0</SECONDARY_TEMP>
+    <TYPE>Partial Mash</TYPE>
+    <BOIL_SIZE>4.731764736415039</BOIL_SIZE>
+    <TERTIARY_TEMP>21.0</TERTIARY_TEMP>
+    <DISPLAY_OG>0.0</DISPLAY_OG>
+    <NAME>Honey Ginger Ale</NAME>
+    <FG>1.015</FG>
+    <EQUIPMENT/>
+    <SECONDARY_AGE>0</SECONDARY_AGE>
+    <PRIMARY_AGE>14</PRIMARY_AGE>
+    <OG>1.052</OG>
+    <VERSION>1</VERSION>
+    <PRIMARY_TEMP>21.0</PRIMARY_TEMP>
+    <NOTES>Partial mash:
+Heat 128 oz water for mashing. Used additional 20oz for getting the water to mash temperature.
+Strike temperature: 164F
+Mash temperature used: 152-154
+
+Used 16oz of sparge water at 170F.
+
+The water was short by 16oz. So added additional water.
+
+1.034 without honey at 30 min boil point.
+
+Over powered by ginger. Over carbonation.</NOTES>
+    <DISPLAY_FG>0.0</DISPLAY_FG>
+    <BREWER/>
+    <TERTIARY_AGE>0</TERTIARY_AGE>
+    <BOIL_TIME>60</BOIL_TIME>
+    <EFFICIENCY>75.0</EFFICIENCY>
+    <HOPS>
+      <HOP>
+        <NAME>Cascade</NAME>
+        <VERSION>0</VERSION>
+        <ALPHA>6.6</ALPHA>
+        <AMOUNT>0.00708738</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>60</TIME>
+        <NOTES>No description</NOTES>
+        <TYPE>Hop</TYPE>
+        <FORM>Pellet</FORM>
+      </HOP>
+    </HOPS>
+    <FERMENTABLES>
+      <FERMENTABLE>
+        <NAME>Golden Light DME</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Extract</TYPE>
+        <AMOUNT>0.29483504</AMOUNT>
+        <YIELD>90.87999999999992</YIELD>
+        <COLOR>4.699999809265137</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Two-row (Canadian)</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Grain</TYPE>
+        <AMOUNT>0.13607771</AMOUNT>
+        <YIELD>77.89999999999982</YIELD>
+        <COLOR>2.0999999046325684</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Crystal 80L</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Grain</TYPE>
+        <AMOUNT>0.09071847</AMOUNT>
+        <YIELD>73.5700000000001</YIELD>
+        <COLOR>80.0</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Honey</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Sugar</TYPE>
+        <AMOUNT>0.09071847</AMOUNT>
+        <YIELD>75.72999999999993</YIELD>
+        <COLOR>1.5</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Honey Malt (Canadian)</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Grain</TYPE>
+        <AMOUNT>0.09071847</AMOUNT>
+        <YIELD>64.9200000000002</YIELD>
+        <COLOR>25.0</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+    </FERMENTABLES>
+    <MISCS>
+      <MISC>
+        <AMOUNT_IS_WEIGHT>false</AMOUNT_IS_WEIGHT>
+        <AMOUNT>0.02957350</AMOUNT>
+        <USE_FOR>Ginger flavor</USE_FOR>
+        <TYPE>Misc</TYPE>
+        <VERSION>1</VERSION>
+        <NOTES>Contributes ginger flavor. Add during the boil.</NOTES>
+        <NAME>Ginger Root</NAME>
+        <USE>Boil</USE>
+        <DISPLAY_AMOUNT>1.0 oz</DISPLAY_AMOUNT>
+        <DISPLAY_TIME>5 mins</DISPLAY_TIME>
+      </MISC>
+      <MISC>
+        <AMOUNT_IS_WEIGHT>false</AMOUNT_IS_WEIGHT>
+        <AMOUNT>0.02957350</AMOUNT>
+        <USE_FOR>Ginger flavor</USE_FOR>
+        <TYPE>Misc</TYPE>
+        <VERSION>1</VERSION>
+        <NOTES>Contributes ginger flavor. Add during the boil.</NOTES>
+        <NAME>Ginger Root</NAME>
+        <USE>Secondary</USE>
+        <DISPLAY_AMOUNT>1.0 oz</DISPLAY_AMOUNT>
+        <DISPLAY_TIME>7 days</DISPLAY_TIME>
+      </MISC>
+    </MISCS>
+    <YEASTS>
+      <YEAST>
+        <NAME>Dry Ale Yeast</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Yeast</TYPE>
+        <AMOUNT>0.0</AMOUNT>
+        <LABORATORY>Muntons</LABORATORY>
+        <PRODUCT_ID>Standard Ale Yeast</PRODUCT_ID>
+        <MIN_TEMPERATURE>0</MIN_TEMPERATURE>
+        <MAX_TEMPERATURE>0</MAX_TEMPERATURE>
+        <ATTENUATION>70.0</ATTENUATION>
+      </YEAST>
+    </YEASTS>
+    <WATERS/>
+    <MASH>
+      <TUN_WEIGHT>160.00000000</TUN_WEIGHT>
+      <GRAIN_TEMP>22.22222220</GRAIN_TEMP>
+      <VERSION>1</VERSION>
+      <NAME>BIAB, Medium Body</NAME>
+      <NOTES>Brew in a bag method where the full boil volume is mashed within the boil vessel and then the grains are withdrawn at the end of the mash.  No active sparging is required.  This is a medium body beer profile.</NOTES>
+      <TUN_SPECIFIC_HEAT>0.30000000</TUN_SPECIFIC_HEAT>
+      <EQUIP_ADJUST>FALSE</EQUIP_ADJUST>
+      <TUN_TEMP>22.22222220</TUN_TEMP>
+      <SPARGE_TEMP>75.60000000</SPARGE_TEMP>
+      <PH>5.20000000</PH>
+      <MASH_STEPS>
+        <MASH_STEP>
+          <RAMP_TIME>10.00000000</RAMP_TIME>
+          <STEP_TEMP>66.70000000</STEP_TEMP>
+          <INFUSE_AMOUNT>5.04927939</INFUSE_AMOUNT>
+          <END_TIME>66.70000000</END_TIME>
+          <STEP_TIME>75.00000000</STEP_TIME>
+          <TYPE>Infusion</TYPE>
+          <VERSION>1</VERSION>
+          <NAME>Saccharification</NAME>
+        </MASH_STEP>
+        <MASH_STEP>
+          <RAMP_TIME>7.00000000</RAMP_TIME>
+          <STEP_TEMP>75.55555560</STEP_TEMP>
+          <INFUSE_AMOUNT>0.00000000</INFUSE_AMOUNT>
+          <END_TIME>75.55555560</END_TIME>
+          <STEP_TIME>10.00000000</STEP_TIME>
+          <TYPE>Temperature</TYPE>
+          <VERSION>1</VERSION>
+          <NAME>Mash Out</NAME>
+        </MASH_STEP>
+      </MASH_STEPS>
+    </MASH>
+    <STYLE>
+      <PROFILE>Aroma: Low to moderate hop aroma from dry hopping or late kettle additions of American hop varieties. A citrusy hop character is common, but not required. Moderately low to moderately high maltiness balances and sometimes masks the hop presentation, and usually shows a moderate caramel character. Esters vary from moderate to none. No diacetyl. Appearance: Amber to coppery brown in color. Moderately large off-white head with good retention. Generally quite clear, although dry-hopped versions may be slightly hazy. Flavor: Moderate to high hop flavor from American hop varieties, which often but not always has a citrusy quality. Malt flavors are moderate to strong, and usually show an initial malty sweetness followed by a moderate caramel flavor (and sometimes other character malts in lesser amounts). Malt and hop bitterness are usually balanced and mutually supportive. Fruity esters can be moderate to none. Caramel sweetness and hop flavor/bitterness can linger somewhat into the medium to full finish. No diacetyl. Mouthfeel: Medium to medium-full body. Carbonation moderate to high. Overall smooth finish without astringency often associated with high hopping rates. Stronger versions may have a slight alcohol warmth.</PROFILE>
+      <ABV_MIN>4.50000000</ABV_MIN>
+      <CARB_MAX>0.00000000</CARB_MAX>
+      <FG_MAX>1.01500000</FG_MAX>
+      <IBU_MAX>40.00000000</IBU_MAX>
+      <TYPE>Ale</TYPE>
+      <NAME>American Amber Ale</NAME>
+      <STYLE_GUIDE>BJCP 2008</STYLE_GUIDE>
+      <OG_MIN>1.04500000</OG_MIN>
+      <CATEGORY>American Ale</CATEGORY>
+      <OG_MAX>1.06000000</OG_MAX>
+      <COLOR_MIN>10.00000000</COLOR_MIN>
+      <ABV_MAX>6.20000000</ABV_MAX>
+      <EXAMPLES>North Coast Red Seal Ale, Troegs HopBack Amber Ale, Deschutes Cinder Cone Red, Pyramid Broken Rake, St. Rogue Red Ale, Anderson Valley Boont Amber Ale, Lagunitas Censored Ale, Avery Redpoint Ale, McNeill's Firehouse Amber Ale, Mendocino Red Tail Ale, Bell's Amber</EXAMPLES>
+      <INGREDIENTS>Pale ale malt, typically American two-row. Medium to dark crystal malts. May contain specialty grains which add character and uniqueness. American hops, often with citrusy flavors, are common but others may also be used. Water can vary in sulfate &amp; carbonate content.</INGREDIENTS>
+      <FG_MIN>1.01000000</FG_MIN>
+      <STYLE_LETTER>B</STYLE_LETTER>
+      <VERSION>1</VERSION>
+      <NOTES>Like an American pale ale with more body, more caramel richness, and a balance more towards malt than hops (although hop rates can be significant). Known simply as Red Ales in some regions, these beers were popularized in the hop-loving Northern California and the Pacific Northwest areas before spreading nationwide. Can overlap in color with American pale ales. However, American amber ales differ from American pale ales not only by being usually darker in color, but also by having more caramel flavor, more body, and usually being balanced more evenly between malt and bitterness. Should not have a strong chocolate or roast character that might suggest an American brown ale (although small amounts are OK).</NOTES>
+      <IBU_MIN>25.00000000</IBU_MIN>
+      <CARB_MIN>0.00000000</CARB_MIN>
+      <COLOR_MAX>17.00000000</COLOR_MAX>
+      <CATEGORY_NUMBER>10</CATEGORY_NUMBER>
+    </STYLE>
+  </RECIPE>

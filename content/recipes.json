@@ -1,0 +1,197 @@
+[
+  {
+    "id": "wit-2",
+    "name": "Belgian Witbier-II",
+    "style": "Belgian Witbier",
+    "status": "Brewing",
+    "description": "Second iteration of Belgian Witbier with enhanced citrus and coriander notes.",
+    "xml": null
+  },
+  {
+    "id": "grape-ipa",
+    "name": "Grapefruit Citra IPA",
+    "style": "American IPA",
+    "status": "Planned",
+    "description": "Grapefruit peel infused IPA heavily dry-hopped with Citra.",
+    "xml": null
+  },
+  {
+    "id": "black-wit",
+    "name": "Midnight Wit",
+    "style": "Black Witbier",
+    "status": "Planned",
+    "description": "Dark wheat beer brewed with Belgian yeast and roasted dehusked malt.",
+    "xml": null
+  },
+  {
+    "id": "hon-wit",
+    "name": "Cheri-Citron Wit",
+    "style": "Fruit Witbier",
+    "status": "Planned",
+    "description": "Belgian style wheat ale with sweet cherry and lemon zest additions.",
+    "xml": null
+  },
+  {
+    "id": "wit",
+    "name": "Belgian Witbier",
+    "style": "Belgian Witbier",
+    "status": "Planned",
+    "description": "Classic Belgian wit with coriander seeds and bitter orange peel.",
+    "xml": "assets/recipes/belgian_witbier.xml",
+    "xml_file": "belgian_witbier"
+  },
+  {
+    "id": "alt",
+    "name": "German Red Ale (Altbier)",
+    "style": "Düsseldorf Altbier",
+    "status": "Brewed",
+    "description": "An Altbier fermented at ale temperatures and bottle-conditioned at lager temperatures. A delicious caramelly red ale powered by Munich malt.",
+    "xml": "assets/recipes/german_red_ale.xml",
+    "xml_file": "german_red_ale"
+  },
+  {
+    "id": "dubbel",
+    "name": "Dubbel Trouble",
+    "style": "Belgian Dubbel (BJCP 26B)",
+    "status": "Competition Rated (33.5/50)",
+    "description": "Trappist-style Belgian Dubbel brewed with homemade Belgian Dark Candi syrup. Copper red color, aromatic with dark caramel, raisins, and dried plum flavors.",
+    "xml": "assets/recipes/dubbel_trouble.xml",
+    "xml_file": "dubbel_trouble",
+    "award": "Scored 33.5/50 at Amber Waves of Grains 2017"
+  },
+  {
+    "id": "choc-ms",
+    "name": "Double Chocolate Milk Stout",
+    "style": "Sweet / Milk Stout",
+    "status": "Brewed",
+    "description": "Rich sweet stout brewed with two kinds of baker's chocolate in the boil and cacao nibs in the secondary. Intense aroma with coffee notes and a vanilla finish.",
+    "xml": "assets/recipes/chocolate_milk_stout.xml",
+    "xml_file": "chocolate_milk_stout"
+  },
+  {
+    "id": "winter-saison",
+    "name": "Spiced Winter Saison",
+    "style": "Winter Saison",
+    "status": "Brewed",
+    "description": "Dark amber to red Saison brewed with Belgian biscuit malt and dehusked black malt. Toasty aroma with spicy, peppery yeast character that evolves with age.",
+    "xml": "assets/recipes/spiced_saison.xml",
+    "xml_file": "spiced_saison"
+  },
+  {
+    "id": "bb-wheat",
+    "name": "Blueberry Wheat",
+    "style": "Fruit Wheat Ale",
+    "status": "Brewed",
+    "description": "Deep pink American fruit wheat beer crafted with blueberries split between boil and secondary for vibrant fruit aroma and wine-like tartness.",
+    "xml": "assets/recipes/blueberry_wheat.xml",
+    "xml_file": "blueberry_wheat"
+  },
+  {
+    "id": "kbs",
+    "name": "Russian Imperial Stout (KBS Clone)",
+    "style": "Russian Imperial Stout",
+    "status": "Brewed (~10% ABV)",
+    "description": "Imperial Stout infused with dark roast coffee, bittersweet chocolate, and aged with bourbon-soaked medium toast oak cubes.",
+    "xml": "assets/recipes/kbs_clone.xml",
+    "xml_file": "kbs_clone"
+  },
+  {
+    "id": "brown",
+    "name": "Nutty Brown Ale",
+    "style": "English Brown Ale",
+    "status": "Brewed",
+    "description": "English-style brown ale brewed with biscuit malt and subtle chocolate additions. Smooth, nutty, and exceptionally drinkable.",
+    "xml": "assets/recipes/nutty_brown_ale.xml",
+    "xml_file": "nutty_brown_ale"
+  },
+  {
+    "id": "bel-pumpkin",
+    "name": "Belgian Pumpkin Ale",
+    "style": "Spiced Pumpkin Ale",
+    "status": "Brewed",
+    "description": "Autumn ale combining Belgian yeast esters with pumpkin spices and rich biscuit malt character.",
+    "xml": "assets/recipes/belgian_pumpkin_ale.xml",
+    "xml_file": "belgian_pumpkin_ale"
+  },
+  {
+    "id": "cof-ms",
+    "name": "Vanilla Latte Stout",
+    "style": "Coffee Milk Stout",
+    "status": "Brewed",
+    "description": "Silky milk stout infused with dark roast cold-brew coffee and whole Madagascar vanilla beans.",
+    "xml": "assets/recipes/latte_stout.xml",
+    "xml_file": "latte_stout"
+  },
+  {
+    "id": "c2-ipa",
+    "name": "Centennial / Cascade IPA",
+    "style": "American IPA",
+    "status": "Brewed",
+    "description": "Classic Pacific Northwest double-C IPA generously dry-hopped with Centennial and Cascade for floral pine and grapefruit aroma.",
+    "xml": "assets/recipes/centennial_cascade_ipa.xml",
+    "xml_file": "centennial_cascade_ipa"
+  },
+  {
+    "id": "hon-gin",
+    "name": "Honey Ginger Ale",
+    "style": "Spiced Summer Ale",
+    "status": "Brewed",
+    "description": "Refreshing summer ale brewed with freshly crushed ginger root, Canadian honey malt, and raw wildflower honey.",
+    "xml": "assets/recipes/honey_ginger_ale.xml",
+    "xml_file": "honey_ginger_ale"
+  },
+  {
+    "id": "hon-org-wheat",
+    "name": "Honey Orange Wheat Ale",
+    "style": "American Wheat Ale",
+    "status": "Brewed",
+    "description": "Summer wheat beer infused with sweet orange peel, fresh orange zest, and steeped honey malt.",
+    "xml": "assets/recipes/honey_orange_wheat_ale.xml",
+    "xml_file": "honey_orange_wheat_ale"
+  },
+  {
+    "id": "cof-wheat",
+    "name": "Black Coffee Wheat",
+    "style": "Dunkelweizen",
+    "status": "Brewed",
+    "description": "Dunkelweizen brewed with German wheat and Carafa Special dehusked roasted malt delivering natural roasted coffee undertones.",
+    "xml": "assets/recipes/black_coffee_wheat.xml",
+    "xml_file": "black_coffee_wheat"
+  },
+  {
+    "id": "bourbon-port",
+    "name": "Bourbon Barrel Porter",
+    "style": "Imperial Porter",
+    "status": "Brewed",
+    "description": "Robust imperial porter aged on Kentucky bourbon-soaked American oak cubes with subtle pure vanilla bean notes.",
+    "xml": "assets/recipes/bourbon_porter.xml",
+    "xml_file": "bourbon_porter"
+  },
+  {
+    "id": "org-hef",
+    "name": "Orange Hefeweizen",
+    "style": "German Hefeweizen",
+    "status": "Brewed",
+    "description": "Traditional Bavarian Hefeweizen spiced with sweet citrus peels in late boil, accentuating banana and clove yeast esters.",
+    "xml": "assets/recipes/orange_hefeweizen.xml",
+    "xml_file": "orange_hefeweizen"
+  },
+  {
+    "id": "rum-stout",
+    "name": "Rum Runner Stout",
+    "style": "Foreign Extra Stout",
+    "status": "Brewed",
+    "description": "Heavy-bodied, high-gravity stout conditioned with Captain Morgan spiced rum in the secondary.",
+    "xml": "assets/recipes/rum_runner_stout.xml",
+    "xml_file": "rum_runner_stout"
+  },
+  {
+    "id": "chinook-ipa",
+    "name": "Chinook IPA",
+    "style": "Single-Hop IPA",
+    "status": "Brewed (First Batch!)",
+    "description": "The inaugural 1-gallon batch that started the homebrew journey! Heavy pine, resinous hop character from 100% Chinook hops.",
+    "xml": "assets/recipes/chinook_ipa.xml",
+    "xml_file": "chinook_ipa"
+  }
+]

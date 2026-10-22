@@ -1,0 +1,100 @@
+<article class="pub-card" id="{{ pub.id }}">
+  <div class="pub-header">
+    {% if pub.badge %}
+      <span class="badge badge-primary">{{ pub.badge }}</span>
+    {% endif %}
+    <span class="pub-year">{{ pub.year }}</span>
+  </div>
+
+  <h3 class="pub-title">{{ pub.title }}</h3>
+  <p class="pub-authors">{{ pub.authors_html | safe }}</p>
+  <p class="pub-venue">{{ pub.venue }}</p>
+
+  <div class="pub-actions">
+    {% if pub.pdf %}
+      <a href="{{ pub.pdf }}" class="btn btn-sm btn-outline" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+          <polyline points="14 2 14 8 20 8"></polyline>
+          <line x1="12" y1="18" x2="12" y2="12"></line>
+          <line x1="9" y1="15" x2="15" y2="15"></line>
+        </svg>
+        <span>PDF</span>
+      </a>
+    {% endif %}
+
+    {% if pub.slides %}
+      <a href="{{ pub.slides }}" class="btn btn-sm btn-outline" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+          <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+          <line x1="8" y1="21" x2="16" y2="21"></line>
+          <line x1="12" y1="17" x2="12" y2="21"></line>
+        </svg>
+        <span>Slides</span>
+      </a>
+    {% endif %}
+
+    {% if pub.poster %}
+      <a href="{{ pub.poster }}" class="btn btn-sm btn-outline" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+          <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+          <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+        </svg>
+        <span>Poster</span>
+      </a>
+    {% endif %}
+
+    {% if pub.video %}
+      <a href="{{ pub.video }}" class="btn btn-sm btn-outline" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+          <polygon points="5 3 19 12 5 21 5 3"></polygon>
+        </svg>
+        <span>Video</span>
+      </a>
+    {% endif %}
+
+    {% if pub.teaser_video %}
+      <a href="{{ pub.teaser_video }}" class="btn btn-sm btn-outline" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+          <polygon points="5 3 19 12 5 21 5 3"></polygon>
+        </svg>
+        <span>Teaser Video</span>
+      </a>
+    {% endif %}
+
+    {% if pub.patent_url %}
+      <a href="{{ pub.patent_url }}" class="btn btn-sm btn-outline" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+          <circle cx="12" cy="12" r="10"></circle>
+          <line x1="2" y1="12" x2="22" y2="12"></line>
+          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+        </svg>
+        <span>Patent Doc</span>
+      </a>
+    {% endif %}
+
+    {% if pub.bibtex %}
+      <button class="btn btn-sm btn-ghost copy-bibtex-btn" data-bibtex="{{ pub.bibtex | escape }}" title="Copy BibTeX Citation">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+          <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+          <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+        </svg>
+        <span>BibTeX</span>
+      </button>
+
+      <button class="btn btn-sm btn-ghost toggle-bibtex-view" data-target="bib-{{ pub.id }}" title="Toggle BibTeX Preview">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+          <polyline points="16 18 22 12 16 6"></polyline>
+          <polyline points="8 6 2 12 8 18"></polyline>
+        </svg>
+        <span>View</span>
+      </button>
+    {% endif %}
+  </div>
+
+  {% if pub.bibtex %}
+    <div id="bib-{{ pub.id }}" class="pub-bibtex-preview hidden">
+      <pre><code>{{ pub.bibtex }}</code></pre>
+    </div>
+  {% endif %}
+</article>

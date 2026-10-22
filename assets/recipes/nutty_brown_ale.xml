@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RECIPE>
+    <AGE>14</AGE>
+    <FERMENTATION_STAGES>1</FERMENTATION_STAGES>
+    <BATCH_SIZE>4.731764736415039</BATCH_SIZE>
+    <SECONDARY_TEMP>21.0</SECONDARY_TEMP>
+    <TYPE>Partial Mash</TYPE>
+    <BOIL_SIZE>6.624470630981055</BOIL_SIZE>
+    <TERTIARY_TEMP>21.0</TERTIARY_TEMP>
+    <DISPLAY_OG>0.0</DISPLAY_OG>
+    <NAME>Nutty Brown Ale</NAME>
+    <FG>1.012</FG>
+    <EQUIPMENT/>
+    <SECONDARY_AGE>0</SECONDARY_AGE>
+    <PRIMARY_AGE>14</PRIMARY_AGE>
+    <OG>1.053</OG>
+    <VERSION>1</VERSION>
+    <PRIMARY_TEMP>21.0</PRIMARY_TEMP>
+    <NOTES>Efficiency was too low, added .25lb more DME to compensate for it.</NOTES>
+    <DISPLAY_FG>0.0</DISPLAY_FG>
+    <BREWER/>
+    <TERTIARY_AGE>0</TERTIARY_AGE>
+    <BOIL_TIME>60</BOIL_TIME>
+    <EFFICIENCY>50.0</EFFICIENCY>
+    <HOPS>
+      <HOP>
+        <NAME>Nugget</NAME>
+        <VERSION>0</VERSION>
+        <ALPHA>14.6</ALPHA>
+        <AMOUNT>8.5049E-4</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>60</TIME>
+        <NOTES>No description</NOTES>
+        <TYPE>Hop</TYPE>
+        <FORM>Pellet</FORM>
+      </HOP>
+      <HOP>
+        <NAME>Kent Golding</NAME>
+        <VERSION>0</VERSION>
+        <ALPHA>5.6</ALPHA>
+        <AMOUNT>0.00425243</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>30</TIME>
+        <NOTES>No description</NOTES>
+        <TYPE>Hop</TYPE>
+        <FORM>Pellet</FORM>
+      </HOP>
+      <HOP>
+        <NAME>Kent Golding</NAME>
+        <VERSION>0</VERSION>
+        <ALPHA>5.6</ALPHA>
+        <AMOUNT>0.0056699</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>15</TIME>
+        <NOTES>No description</NOTES>
+        <TYPE>Hop</TYPE>
+        <FORM>Pellet</FORM>
+      </HOP>
+    </HOPS>
+    <FERMENTABLES>
+      <FERMENTABLE>
+        <NAME>Golden Light DME</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Extract</TYPE>
+        <AMOUNT>0.45359237</AMOUNT>
+        <YIELD>93.04999999999984</YIELD>
+        <COLOR>11.0</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Two-row (US)</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Grain</TYPE>
+        <AMOUNT>0.15592238</AMOUNT>
+        <YIELD>80.06000000000016</YIELD>
+        <COLOR>1.7999999523162842</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Munich (US)</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Grain</TYPE>
+        <AMOUNT>0.14174762</AMOUNT>
+        <YIELD>71.40999999999977</YIELD>
+        <COLOR>20.0</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Biscuit (Belgian)</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Grain</TYPE>
+        <AMOUNT>0.09922333</AMOUNT>
+        <YIELD>75.72999999999993</YIELD>
+        <COLOR>24.0</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Chocolate Wheat Malt</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Grain</TYPE>
+        <AMOUNT>0.059534</AMOUNT>
+        <YIELD>71.40999999999977</YIELD>
+        <COLOR>400.0</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Crystal 40L</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Grain</TYPE>
+        <AMOUNT>0.05102914</AMOUNT>
+        <YIELD>73.5700000000001</YIELD>
+        <COLOR>40.0</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Flaked Oats</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Adjunct</TYPE>
+        <AMOUNT>0.05102914</AMOUNT>
+        <YIELD>71.40999999999977</YIELD>
+        <COLOR>2.200000047683716</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+    </FERMENTABLES>
+    <MISCS>
+      <MISC>
+        <AMOUNT_IS_WEIGHT>false</AMOUNT_IS_WEIGHT>
+        <AMOUNT>0.02957350</AMOUNT>
+        <USE_FOR>Boil</USE_FOR>
+        <TYPE>Misc</TYPE>
+        <VERSION>1</VERSION>
+        <NOTES>Custom misc</NOTES>
+        <NAME>Chocolate Bittersweet</NAME>
+        <USE>Boil</USE>
+        <DISPLAY_AMOUNT>1.0 oz</DISPLAY_AMOUNT>
+        <DISPLAY_TIME>5 mins</DISPLAY_TIME>
+      </MISC>
+    </MISCS>
+    <YEASTS>
+      <YEAST>
+        <NAME>Safale S-04</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Yeast</TYPE>
+        <AMOUNT>0.05</AMOUNT>
+        <LABORATORY>Fermentis</LABORATORY>
+        <PRODUCT_ID>S-04</PRODUCT_ID>
+        <MIN_TEMPERATURE>17</MIN_TEMPERATURE>
+        <MAX_TEMPERATURE>17</MAX_TEMPERATURE>
+        <ATTENUATION>75.0</ATTENUATION>
+      </YEAST>
+    </YEASTS>
+    <WATERS/>
+    <MASH>
+      <TUN_WEIGHT>160.00000000</TUN_WEIGHT>
+      <GRAIN_TEMP>22.22222220</GRAIN_TEMP>
+      <VERSION>1</VERSION>
+      <NAME>BIAB, Medium Body</NAME>
+      <NOTES>Brew in a bag method where the full boil volume is mashed within the boil vessel and then the grains are withdrawn at the end of the mash.  No active sparging is required.  This is a medium body beer profile.</NOTES>
+      <TUN_SPECIFIC_HEAT>0.30000000</TUN_SPECIFIC_HEAT>
+      <EQUIP_ADJUST>FALSE</EQUIP_ADJUST>
+      <TUN_TEMP>22.22222220</TUN_TEMP>
+      <SPARGE_TEMP>75.60000000</SPARGE_TEMP>
+      <PH>5.20000000</PH>
+      <MASH_STEPS>
+        <MASH_STEP>
+          <RAMP_TIME>10.00000000</RAMP_TIME>
+          <STEP_TEMP>66.70000000</STEP_TEMP>
+          <INFUSE_AMOUNT>7.18295624</INFUSE_AMOUNT>
+          <END_TIME>66.70000000</END_TIME>
+          <STEP_TIME>75.00000000</STEP_TIME>
+          <TYPE>Infusion</TYPE>
+          <VERSION>1</VERSION>
+          <NAME>Saccharification</NAME>
+        </MASH_STEP>
+        <MASH_STEP>
+          <RAMP_TIME>7.00000000</RAMP_TIME>
+          <STEP_TEMP>75.55555560</STEP_TEMP>
+          <INFUSE_AMOUNT>0.00000000</INFUSE_AMOUNT>
+          <END_TIME>75.55555560</END_TIME>
+          <STEP_TIME>10.00000000</STEP_TIME>
+          <TYPE>Temperature</TYPE>
+          <VERSION>1</VERSION>
+          <NAME>Mash Out</NAME>
+        </MASH_STEP>
+      </MASH_STEPS>
+    </MASH>
+    <STYLE>
+      <PROFILE>Aroma: Malt aroma with mild roastiness should be evident, and may have a chocolaty quality. May also show some nonroasted malt character in support (caramelly, grainy, bready, nutty, toffee-like and/or sweet). English hop aroma moderate to none. Fruity esters moderate to none. Diacetyl low to none. Appearance: Light brown to dark brown in color, often with ruby highlights when held up to light. Good clarity, although may approach being opaque. Moderate off-white to light tan head with good to fair retention. Flavor: Malt flavor includes a mild to moderate roastiness (frequently with a chocolate character) and often a significant caramel, nutty, and/or toffee character. May have other secondary flavors such as coffee, licorice, biscuits or toast in support. Should not have a significant black malt character (acrid, burnt, or harsh roasted flavors), although small amounts may contribute a bitter chocolate complexity. English hop flavor moderate to none. Medium-low to medium hop bitterness will vary the balance from slightly malty to slightly bitter. Usually fairly well attenuated, although somewhat sweet versions exist. Diacetyl should be moderately low to none. Moderate to low fruity esters. Mouthfeel: Medium-light to medium body. Moderately low to moderately high carbonation.</PROFILE>
+      <ABV_MIN>4.00000000</ABV_MIN>
+      <CARB_MAX>0.00000000</CARB_MAX>
+      <FG_MAX>1.01400000</FG_MAX>
+      <IBU_MAX>35.00000000</IBU_MAX>
+      <TYPE>Ale</TYPE>
+      <NAME>Brown Porter</NAME>
+      <STYLE_GUIDE>BJCP 2008</STYLE_GUIDE>
+      <OG_MIN>1.04000000</OG_MIN>
+      <CATEGORY>Porter</CATEGORY>
+      <OG_MAX>1.05200000</OG_MAX>
+      <COLOR_MIN>20.00000000</COLOR_MIN>
+      <ABV_MAX>5.40000000</ABV_MAX>
+      <EXAMPLES>Fuller's London Porter, Samuel Smith Taddy Porter, Burton Bridge Burton Porter, RCH Old Slug Porter, Nethergate Old Growler Porter, Hambleton Nightmare Porter, Harvey’s Tom Paine Original Old Porter, Salopian Entire Butt English Porter, St. Peters Old-Style Porter, Shepherd Neame Original Porter, Flag Porter, Wasatch Polygamy Porter</EXAMPLES>
+      <INGREDIENTS>English ingredients are most common. May contain several malts, including chocolate and/or other dark roasted malts and caramel-type malts. Historical versions would use a significant amount of brown malt. Usually does not contain large amounts of black patent malt or roasted barley. English hops are most common, but are usually subdued. London or Dublin-type water (moderate carbonate hardness) is traditional. English or Irish ale yeast, or occasionally lager yeast, is used. May contain a moderate amount of adjuncts (sugars, maize, molasses, treacle, etc.).</INGREDIENTS>
+      <FG_MIN>1.00800000</FG_MIN>
+      <STYLE_LETTER>A</STYLE_LETTER>
+      <VERSION>1</VERSION>
+      <NOTES>A fairly substantial English dark ale with restrained roasty characteristics. Originating in England, porter evolved from a blend of beers or gyles known as “Entire.” A precursor to stout. Said to have been favored by porters and other physical laborers. Differs from a robust porter in that it usually has softer, sweeter and more caramelly flavors, lower gravities, and usually less alcohol. More substance and roast than a brown ale. Higher in gravity than a dark mild. Some versions are fermented with lager yeast. Balance tends toward malt more than hops. Usually has an “English” character. Historical versions with Brettanomyces, sourness, or smokiness should be entered in the Specialty Beer category (23).</NOTES>
+      <IBU_MIN>18.00000000</IBU_MIN>
+      <CARB_MIN>0.00000000</CARB_MIN>
+      <COLOR_MAX>30.00000000</COLOR_MAX>
+      <CATEGORY_NUMBER>12</CATEGORY_NUMBER>
+    </STYLE>
+  </RECIPE>
