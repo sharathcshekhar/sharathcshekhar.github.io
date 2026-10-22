@@ -1,0 +1,39 @@
+div#wrapper {
+  min-height: 100vh;
+  position: relative;
+}
+
+main#main {
+    padding-bottom: 60px;
+    min-height: 100%;
+	max-width: 800px;
+  	margin: auto;
+  	text-align: justify;
+}
+
+.container {
+    min-height: 100%;
+}
+
+div#publish {
+	font-style: italic;
+	font-weight: lighter;
+}
+
+.news {
+	font-style: italic;
+	font-weight: lighter;
+	background: ghostwhite;
+	padding-top: 5px;
+}
+
+.navbar-default .navbar-nav > .active > a {
+  background-color: rgba(66, 139, 202, 0.4)
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+  background-color: rgba(220, 220, 220, 0.74);
+  text-decoration: underline;
+}
+
+

@@ -1,0 +1,41 @@
+{
+  "title": "Sharath Chandrashekhara",
+  "author": "Sharath Chandrashekhara",
+  "role": "Software Architect | GenAI for Health",
+  "institution": "Samsung Research America",
+  "tagline": "Explorer by nature · Geek by choice",
+  "description": "Personal website of Sharath Chandrashekhara, Ph.D. — Software Architect | GenAI for Health at Samsung Research America.",
+  "email": "",
+  "office": "Silicon Valley, CA",
+  "avatar": "assets/images/profile.png",
+  "logo": "assets/images/ub-logo.png",
+  "beer_logo": "assets/images/glass.png",
+  "resume_url": "assets/files/resume.pdf",
+  "nav": [
+    { "title": "Home", "url": "index.html", "id": "home" },
+    { "title": "Work", "url": "work.html", "id": "work" },
+    { "title": "Research", "url": "research.html", "id": "research" },
+    {
+      "title": "More",
+      "id": "more",
+      "dropdown": [
+        { "title": "Teaching", "url": "teaching.html", "id": "teaching" },
+        { "title": "Education", "url": "education.html", "id": "education" },
+        { "title": "Homebrewing Lab", "url": "beer.html", "id": "beer" },
+        { "title": "Beer Recipes", "url": "recipes.html", "id": "recipes" },
+        { "title": "Blog", "url": "blog.html", "id": "blog" }
+      ]
+    }
+  ],
+  "social": {
+    "cv": "assets/files/resume.pdf",
+    "email": "",
+    "scholar": "https://scholar.google.com/citations?user=IMGkO4MAAAAJ&hl=en",
+    "github": "https://github.com/sharathcshekhar",
+    "linkedin": "https://www.linkedin.com/in/sharathcshekhar"
+  },
+  "footer": {
+    "copyright": "Copyright © Sharath Chandrashekhara",
+    "tagline": "Built with modular Markdown & automated styling"
+  }
+}

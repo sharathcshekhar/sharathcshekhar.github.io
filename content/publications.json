@@ -1,0 +1,138 @@
+[
+  {
+    "id": "madfusion-iotj26",
+    "title": "MAD-Fusion: Modality-Aware Dynamic Fusion in Identification of Activities of Daily Living",
+    "authors": "Xianghao Zhan, Nafiul Rashid, Ebrahim Nemati, Mohsin Y. Ahmed, Sharath Chandrashekhara, Jilong Kuang",
+    "venue": "IEEE Internet of Things Journal, Volume 13, Issue 7, pp. 14264-14281, 2026",
+    "year": 2026,
+    "project": "MAD-Fusion",
+    "badge": "IEEE IoTJ '26",
+    "bibtex": "@article{zhan2026madfusion,\n  title={MAD-Fusion: Modality-Aware Dynamic Fusion in Identification of Activities of Daily Living},\n  author={Zhan, Xianghao and Rashid, Nafiul and Nemati, Ebrahim and Ahmed, Mohsin Y and Chandrashekhara, Sharath and Kuang, Jilong},\n  journal={IEEE Internet of Things Journal},\n  volume={13},\n  number={7},\n  pages={14264--14281},\n  year={2026},\n  publisher={IEEE}\n}"
+  },
+  {
+    "id": "mindfulbuddy-iotj25",
+    "title": "MindfulBuddy: Extracting Comprehensive Breathing Biomarkers for Breathing Exercise Biofeedback Using Earbud Motion Sensors",
+    "authors": "Md Mahbubur Rahman, Mehrab Bin Morshed, Nafiul Rashid, Sharath Chandrashekhara, Jilong Kuang",
+    "venue": "IEEE Internet of Things Journal, Volume 12, Issue 12, pp. 20420-20434, 2025",
+    "year": 2025,
+    "project": "MindfulBuddy",
+    "badge": "IEEE IoTJ '25",
+    "bibtex": "@article{rahman2025mindfulbuddy,\n  title={MindfulBuddy: Extracting Comprehensive Breathing Biomarkers for Breathing Exercise Biofeedback Using Earbud Motion Sensors},\n  author={Rahman, Md Mahbubur and Morshed, Mehrab Bin and Rashid, Nafiul and Chandrashekhara, Sharath and Kuang, Jilong},\n  journal={IEEE Internet of Things Journal},\n  volume={12},\n  number={12},\n  pages={20420--20434},\n  year={2025},\n  publisher={IEEE}\n}"
+  },
+  {
+    "id": "coughdl-embc24",
+    "title": "Cough-DL: A Deep Learning Model for Ear-Worn Cough Detection",
+    "authors": "Bhawana Chhaglani, Ebrahim Nemati, Sharath Chandrashekhara, Jilong Kuang, Alex Gao",
+    "venue": "Proceedings of the 46th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (IEEE EMBC 2024)",
+    "year": 2024,
+    "project": "Cough-DL",
+    "badge": "IEEE EMBC '24",
+    "bibtex": "@inproceedings{chhaglani2024coughdl,\n  title={Cough-DL: A Deep Learning Model for Ear-Worn Cough Detection},\n  author={Chhaglani, Bhawana and Nemati, Ebrahim and Chandrashekhara, Sharath and Kuang, Jilong and Gao, Alex},\n  booktitle={2024 46th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)},\n  pages={1--5},\n  year={2024},\n  organization={IEEE}\n}"
+  },
+  {
+    "id": "duvel-edgesys18",
+    "title": "Duvel: Enabling Context-Driven, Multi-Profile Apps on Android Through Storage Sand-Boxing",
+    "authors": "Sharath Chandrashekhara, Taeyeon Ki, Karthik Dantu, Steven Y. Ko",
+    "venue": "Proceedings of the 1st International Workshop on Edge Systems, Analytics and Networking (ACM EdgeSys 2018)",
+    "year": 2018,
+    "project": "Duvel",
+    "badge": "ACM EdgeSys '18",
+    "bibtex": "@inproceedings{chandrashekhara2018duvel,\n  title={Duvel: Enabling Context-driven, Multi-profile Apps on Android through Storage Sand-boxing},\n  author={Chandrashekhara, Sharath and Ki, Taeyeon and Dantu, Karthik and Ko, Steven Y},\n  booktitle={Proceedings of the 1st International Workshop on Edge Systems, Analytics and Networking},\n  pages={19--24},\n  year={2018},\n  organization={ACM}\n}"
+  },
+  {
+    "id": "systeme-mobisys18",
+    "title": "Demo: System-E: Enhancing Privacy on Mobile Systems Through Content-Based Classification and Storage",
+    "authors": "Sharath Chandrashekhara, Taeyeon Ki, Karthik Dantu, Steven Y. Ko",
+    "venue": "Proceedings of the 16th Annual International Conference on Mobile Systems, Applications, and Services (MobiSys 2018)",
+    "year": 2018,
+    "project": "System-E",
+    "badge": "MobiSys '18 Demo",
+    "bibtex": "@inproceedings{chandrashekhara2018demo,\n  title={Demo: System-E: Enhancing Privacy on Mobile Systems through Content-Based Classification and Storage},\n  author={Chandrashekhara, Sharath and Ki, Taeyeon and Dantu, Karthik and Ko, Steven Y},\n  booktitle={Proceedings of the 16th Annual International Conference on Mobile Systems, Applications, and Services},\n  pages={513--513},\n  year={2018},\n  organization={ACM}\n}"
+  },
+  {
+    "id": "bluemountain-mobicom17",
+    "title": "BlueMountain: An Architecture for Customized Data Management on Mobile Systems",
+    "authors": "Sharath Chandrashekhara, Taeyeon Ki, Kyungho Jeon, Karthik Dantu, Steven Y. Ko",
+    "venue": "Proceedings of the 23rd Annual International Conference on Mobile Computing and Networking (MobiCom 2017)",
+    "year": 2017,
+    "project": "BlueMountain",
+    "badge": "MobiCom '17",
+    "pdf": "assets/files/bluemountain-mobicom17.pdf",
+    "video": "https://www.youtube.com/watch?v=GzO6vzpuhpE",
+    "teaser_video": "https://www.youtube.com/watch?v=ZKiU0_cSOts",
+    "bibtex": "@inproceedings{chandrashekhara2017bluemountain,\n  title={BlueMountain: An Architecture for Customized Data Management on Mobile Systems},\n  author={Chandrashekhara, Sharath and Ki, Taeyeon and Jeon, Kyungho and Dantu, Karthik and Ko, Steven Y},\n  booktitle={Proceedings of the 23rd Annual International Conference on Mobile Computing and Networking},\n  pages={155--168},\n  year={2017},\n  organization={ACM}\n}",
+    "bibtex_file": "assets/files/bluemountain-mobicom17.bibtex"
+  },
+  {
+    "id": "bluemountain-mobisys17-demo",
+    "title": "Demo: BlueMountain: An Architecture for Customized Data Management on Mobile Systems",
+    "authors": "Sharath Chandrashekhara, Taeyeon Ki, Kyungho Jeon, Karthik Dantu, Steven Y. Ko",
+    "venue": "Proceedings of the 15th Annual International Conference on Mobile Systems, Applications, and Services (MobiSys 2017)",
+    "year": 2017,
+    "project": "BlueMountain",
+    "badge": "MobiSys '17 Demo",
+    "pdf": "assets/files/bluemountain-mobisys17-demo.pdf",
+    "poster": "assets/files/bluemountain-mobisys17-poster.pdf",
+    "video": "https://www.youtube.com/watch?v=ZKiU0_cSOts"
+  },
+  {
+    "id": "cider-icccn17",
+    "title": "Cider: A Case for Block Level Variable Redundancy on a Distributed Flash Array",
+    "authors": "Sharath Chandrashekhara, Madhusudhan R. Kumar, Mahesh Venkataramaiah, Vipin Chaudhary",
+    "venue": "The 26th International Conference on Computer Communications and Networks (ICCCN 2017)",
+    "year": 2017,
+    "project": "Cider",
+    "badge": "ICCCN '17",
+    "pdf": "assets/files/cider-ic3n17.pdf",
+    "slides": "assets/files/cider-ic3n17-slides.pdf",
+    "bibtex": "@inproceedings{chandrashekhara2017cider,\n  title={Cider: A Case for Block Level Variable Redundancy on a Distributed Flash Array},\n  author={Chandrashekhara, Sharath and Kumar, Madhusudhan Ramesh and Venkataramaiah, Mahesh and Chaudhary, Vipin},\n  booktitle={2017 26th International Conference on Computer Communication and Networks (ICCCN)},\n  pages={1--9},\n  year={2017},\n  organization={IEEE}\n}",
+    "bibtex_file": "assets/files/cider-ic3n17.bibtex"
+  },
+  {
+    "id": "cider-patent",
+    "title": "System and Method for Fault-Tolerant Block Data Storage",
+    "authors": "Sharath Chandrashekhara, Madhusudhan Ramesh Kumar, Vipin Chaudhary",
+    "venue": "US & International Patent Application WO2015161140A1 (Filed April 2015, Published October 2015)",
+    "year": 2015,
+    "project": "Cider",
+    "badge": "Patent",
+    "patent_url": "https://www.google.com/patents/WO2015161140A1?cl=en",
+    "bibtex": "@misc{chandrashekhara2015system,\n  title={System and method for fault-tolerant block data storage},\n  author={Chandrashekhara, Sharath and Kumar, Madhusudhan Ramesh and Chaudhary, Vipin},\n  year={2015},\n  month=oct # \"~22\",\n  publisher={Google Patents},\n  note={US Patent App. PCT/US2015/026214}\n}",
+    "bibtex_file": "assets/files/cider-patent.bibtex"
+  },
+  {
+    "id": "pixelsior-hotstorage16",
+    "title": "Pixelsior: Photo Management as a Platform Service for Mobile Apps",
+    "authors": "Kyungho Jeon, Sharath Chandrashekhara, Karthik Dantu, Steven Y. Ko",
+    "venue": "Proceedings of the 8th USENIX Workshop on Hot Topics in Storage and File Systems (HotStorage 2016)",
+    "year": 2016,
+    "project": "Pixelsior",
+    "badge": "HotStorage '16",
+    "pdf": "https://nsr.cse.buffalo.edu/wp-content/uploads/2016/10/pixelcior-hotstorage16.pdf",
+    "bibtex": "@inproceedings{jeon2016pixelsior,\n  title={Pixelsior: Photo Management as a Platform Service for Mobile Apps},\n  author={Jeon, Kyungho and Chandrashekhara, Sharath and Dantu, Karthik and Ko, Steven Y},\n  booktitle={8th USENIX Workshop on Hot Topics in Storage and File Systems (HotStorage 16)},\n  year={2016}\n}"
+  },
+  {
+    "id": "bluemountain-hotstorage15",
+    "title": "Enabling Automated, Rich, and Versatile Data Management for Android Apps with BlueMountain",
+    "authors": "Sharath Chandrashekhara, Kyle Marcus, Rakesh G. M. Subramanya, Hrishikesh S. Karve, Karthik Dantu, Steven Y. Ko",
+    "venue": "Proceedings of the 7th USENIX Workshop on Hot Topics in Storage and File Systems (HotStorage 2015)",
+    "year": 2015,
+    "project": "BlueMountain",
+    "badge": "HotStorage '15",
+    "pdf": "assets/files/bluemountain-hotstorage15.pdf",
+    "slides": "assets/files/bluemountain-hotstorage15-slides.pdf",
+    "bibtex": "@inproceedings{chandrashekhara2015enabling,\n  title={Enabling Automated, Rich, and Versatile Data Management for Android Apps with BlueMountain},\n  author={Chandrashekhara, Sharath and Marcus, Kyle and Subramanya, Rakesh GM and Karve, Hrishikesh S and Dantu, Karthik and Ko, Steven Y},\n  booktitle={7th USENIX Workshop on Hot Topics in Storage and File Systems (HotStorage 15)},\n  year={2015}\n}",
+    "bibtex_file": "assets/files/bluemountain-hotstorage15.bibtex"
+  },
+  {
+    "id": "pigout-bigdata14",
+    "title": "PigOut: Making Multiple Hadoop Clusters Work Together",
+    "authors": "Kyungho Jeon, Sharath Chandrashekhara, Feng Shen, Shikhar Mehra, Oliver Kennedy, Steven Y. Ko",
+    "venue": "Proceedings of the 2014 IEEE International Conference on Big Data (BigData 2014)",
+    "year": 2014,
+    "project": "PigOut",
+    "badge": "BigData '14",
+    "pdf": "https://nsr.cse.buffalo.edu/wp-content/uploads/2014/11/pigout-bigdata14.pdf",
+    "bibtex": "@inproceedings{jeon2014pigout,\n  title={PigOut: Making multiple Hadoop clusters work together},\n  author={Jeon, Kyungho and Chandrashekhara, Sharath and Shen, Feng and Mehra, Shikhar and Kennedy, Oliver and Ko, Steven Y},\n  booktitle={2014 IEEE International Conference on Big Data (Big Data)},\n  pages={740--749},\n  year={2014},\n  organization={IEEE}\n}"
+  }
+]

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RECIPE>
+    <AGE>14</AGE>
+    <FERMENTATION_STAGES>1</FERMENTATION_STAGES>
+    <BATCH_SIZE>3.7854117891320316</BATCH_SIZE>
+    <SECONDARY_TEMP>21.0</SECONDARY_TEMP>
+    <TYPE>Extract</TYPE>
+    <BOIL_SIZE>4.731764736415039</BOIL_SIZE>
+    <TERTIARY_TEMP>21.0</TERTIARY_TEMP>
+    <DISPLAY_OG>0.0</DISPLAY_OG>
+    <NAME>Vanilla Bourbon Porter</NAME>
+    <FG>1.016</FG>
+    <EQUIPMENT/>
+    <SECONDARY_AGE>0</SECONDARY_AGE>
+    <PRIMARY_AGE>14</PRIMARY_AGE>
+    <OG>1.067</OG>
+    <VERSION>1</VERSION>
+    <PRIMARY_TEMP>21.0</PRIMARY_TEMP>
+    <NOTES>Results in higher ABV due to 50ml of 100 proof Bourbon and 10ml of 70 Proof Vanilla extract.
+30ml per gallon of 0.8% ABV, bringing the total ABV to 8%</NOTES>
+    <DISPLAY_FG>0.0</DISPLAY_FG>
+    <BREWER/>
+    <TERTIARY_AGE>0</TERTIARY_AGE>
+    <BOIL_TIME>45</BOIL_TIME>
+    <EFFICIENCY>100.0</EFFICIENCY>
+    <HOPS>
+      <HOP>
+        <NAME>Chinook</NAME>
+        <VERSION>0</VERSION>
+        <ALPHA>11.5</ALPHA>
+        <AMOUNT>0.00340194</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>45</TIME>
+        <NOTES>No description</NOTES>
+        <TYPE>Hop</TYPE>
+        <FORM>Pellet</FORM>
+      </HOP>
+      <HOP>
+        <NAME>Willamette</NAME>
+        <VERSION>0</VERSION>
+        <ALPHA>4.5</ALPHA>
+        <AMOUNT>0.00340194</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>10</TIME>
+        <NOTES>No description</NOTES>
+        <TYPE>Hop</TYPE>
+        <FORM>Pellet</FORM>
+      </HOP>
+    </HOPS>
+    <FERMENTABLES>
+      <FERMENTABLE>
+        <NAME>Dark DME</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Extract</TYPE>
+        <AMOUNT>0.45359237</AMOUNT>
+        <YIELD>95.21000000000018</YIELD>
+        <COLOR>18.0</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Wheat DME</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Extract</TYPE>
+        <AMOUNT>0.22679619</AMOUNT>
+        <YIELD>93.04999999999984</YIELD>
+        <COLOR>3.299999952316284</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Chocolate Malt (British)</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Grain</TYPE>
+        <AMOUNT>0.07484274</AMOUNT>
+        <YIELD>73.5700000000001</YIELD>
+        <COLOR>475.0</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Black Patent (British)</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Grain</TYPE>
+        <AMOUNT>0.03855535</AMOUNT>
+        <YIELD>58.42000000000008</YIELD>
+        <COLOR>525.0</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Crystal 70-80L (British)</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Grain</TYPE>
+        <AMOUNT>0.03855535</AMOUNT>
+        <YIELD>73.5700000000001</YIELD>
+        <COLOR>75.0</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+    </FERMENTABLES>
+    <MISCS>
+      <MISC>
+        <AMOUNT_IS_WEIGHT>false</AMOUNT_IS_WEIGHT>
+        <AMOUNT>0.00985785</AMOUNT>
+        <USE_FOR>Secondary</USE_FOR>
+        <TYPE>Misc</TYPE>
+        <VERSION>1</VERSION>
+        <NOTES>Custom misc</NOTES>
+        <NAME>Vanilla Extract</NAME>
+        <USE>Secondary</USE>
+        <DISPLAY_AMOUNT>2 tsp</DISPLAY_AMOUNT>
+        <DISPLAY_TIME>15 days</DISPLAY_TIME>
+      </MISC>
+      <MISC>
+        <AMOUNT_IS_WEIGHT>false</AMOUNT_IS_WEIGHT>
+        <AMOUNT>0.01478675</AMOUNT>
+        <USE_FOR>Secondary</USE_FOR>
+        <TYPE>Misc</TYPE>
+        <VERSION>1</VERSION>
+        <NOTES>Custom misc</NOTES>
+        <NAME>Oak Cubes</NAME>
+        <USE>Secondary</USE>
+        <DISPLAY_AMOUNT>0.5 oz</DISPLAY_AMOUNT>
+        <DISPLAY_TIME>15 days</DISPLAY_TIME>
+      </MISC>
+      <MISC>
+        <AMOUNT_IS_WEIGHT>false</AMOUNT_IS_WEIGHT>
+        <AMOUNT>0.04436025</AMOUNT>
+        <USE_FOR>Secondary</USE_FOR>
+        <TYPE>Misc</TYPE>
+        <VERSION>1</VERSION>
+        <NOTES>Custom misc</NOTES>
+        <NAME>Bourbon</NAME>
+        <USE>Secondary</USE>
+        <DISPLAY_AMOUNT>1.5 oz</DISPLAY_AMOUNT>
+        <DISPLAY_TIME>15 days</DISPLAY_TIME>
+      </MISC>
+    </MISCS>
+    <YEASTS>
+      <YEAST>
+        <NAME>Safale S-04</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Yeast</TYPE>
+        <AMOUNT>0.05</AMOUNT>
+        <LABORATORY>Fermentis</LABORATORY>
+        <PRODUCT_ID>S-04</PRODUCT_ID>
+        <MIN_TEMPERATURE>17</MIN_TEMPERATURE>
+        <MAX_TEMPERATURE>17</MAX_TEMPERATURE>
+        <ATTENUATION>75.0</ATTENUATION>
+      </YEAST>
+    </YEASTS>
+    <WATERS/>
+    <MASH>
+      <TUN_WEIGHT>0.00000000</TUN_WEIGHT>
+      <GRAIN_TEMP>20.00000000</GRAIN_TEMP>
+      <VERSION>1</VERSION>
+      <NAME>New Mash Profile</NAME>
+      <NOTES/>
+      <TUN_SPECIFIC_HEAT>0.00000000</TUN_SPECIFIC_HEAT>
+      <EQUIP_ADJUST>FALSE</EQUIP_ADJUST>
+      <TUN_TEMP>20.00000000</TUN_TEMP>
+      <SPARGE_TEMP>75.55550000</SPARGE_TEMP>
+      <PH>7.00000000</PH>
+      <MASH_STEPS/>
+    </MASH>
+    <STYLE>
+      <PROFILE>Aroma: Roasty aroma (often with a lightly burnt, black malt character) should be noticeable and may be moderately strong. Optionally may also show some additional malt character in support (grainy, bready, toffee-like, caramelly, chocolate, coffee, rich, and/or sweet). Hop aroma low to high (US or UK varieties). Some American versions may be dry-hopped. Fruity esters are moderate to none. Diacetyl low to none. Appearance: Medium brown to very dark brown, often with ruby- or garnet-like highlights. Can approach black in color. Clarity may be difficult to discern in such a dark beer, but when not opaque will be clear (particularly when held up to the light). Full, tan-colored head with moderately good head retention. Flavor: Moderately strong malt flavor usually features a lightly burnt, black malt character (and sometimes chocolate and/or coffee flavors) with a bit of roasty dryness in the finish. Overall flavor may finish from dry to medium-sweet, depending on grist composition, hop bittering level, and attenuation. May have a sharp character from dark roasted grains, although should not be overly acrid, burnt or harsh. Medium to high bitterness, which can be accentuated by the roasted malt. Hop flavor can vary from low to moderately high (US or UK varieties, typically), and balances the roasted malt flavors. Diacetyl low to none. Fruity esters moderate to none. Mouthfeel: Medium to medium-full body. Moderately low to moderately high carbonation. Stronger versions may have a slight alcohol warmth. May have a slight astringency from roasted grains, although this character should not be strong.</PROFILE>
+      <ABV_MIN>4.80000000</ABV_MIN>
+      <CARB_MAX>0.00000000</CARB_MAX>
+      <FG_MAX>1.01600000</FG_MAX>
+      <IBU_MAX>50.00000000</IBU_MAX>
+      <TYPE>Ale</TYPE>
+      <NAME>Robust Porter</NAME>
+      <STYLE_GUIDE>BJCP 2008</STYLE_GUIDE>
+      <OG_MIN>1.04800000</OG_MIN>
+      <CATEGORY>Porter</CATEGORY>
+      <OG_MAX>1.06500000</OG_MAX>
+      <COLOR_MIN>22.00000000</COLOR_MIN>
+      <ABV_MAX>6.50000000</ABV_MAX>
+      <EXAMPLES>Great Lakes Edmund Fitzgerald Porter, Meantime London Porter, Anchor Porter, Smuttynose Robust Porter, Sierra Nevada Porter, Deschutes Black Butte Porter, Boulevard Bully! Porter, Rogue Mocha Porter, Avery New World Porter, Bell’s Porter, Great Divide Saint Bridget’s Porter</EXAMPLES>
+      <INGREDIENTS>May contain several malts, prominently dark roasted malts and grains, which often include black patent malt (chocolate malt and/or roasted barley may also be used in some versions). Hops are used for bittering, flavor and/or aroma, and are frequently UK or US varieties. Water with moderate to high carbonate hardness is typical. Ale yeast can either be clean US versions or characterful English varieties.</INGREDIENTS>
+      <FG_MIN>1.01200000</FG_MIN>
+      <STYLE_LETTER>B</STYLE_LETTER>
+      <VERSION>1</VERSION>
+      <NOTES>A substantial, malty dark ale with a complex and flavorful roasty character. Stronger, hoppier and/or roastier version of porter designed as either a historical throwback or an American interpretation of the style. Traditional versions will have a more subtle hop character (often English), while modern versions may be considerably more aggressive. Both types are equally valid. Although a rather broad style open to brewer interpretation, it may be distinguished from Stout as lacking a strong roasted barley character. It differs from a brown porter in that a black patent or roasted grain character is usually present, and it can be stronger in alcohol. Roast intensity and malt flavors can also vary significantly. May or may not have a strong hop character, and may or may not have significant fermentation by-products; thus may seem to have an “American” or “English” character.</NOTES>
+      <IBU_MIN>25.00000000</IBU_MIN>
+      <CARB_MIN>0.00000000</CARB_MIN>
+      <COLOR_MAX>35.00000000</COLOR_MAX>
+      <CATEGORY_NUMBER>12</CATEGORY_NUMBER>
+    </STYLE>
+  </RECIPE>

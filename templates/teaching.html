@@ -1,0 +1,91 @@
+<div class="page-layout teaching-layout">
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="page-header-pill">Academics & Instruction</div>
+    <h1 class="page-title">{{ page.heading | default: "Teaching Experience" }}</h1>
+    <p class="page-tagline">{{ page.tagline }}</p>
+  </header>
+
+  <!-- Overview Card -->
+  <section class="content-card mb-8">
+    <div class="markdown-body">
+      {{ page.body_html | safe }}
+    </div>
+  </section>
+
+  <!-- Courses Grid -->
+  <section class="mb-10">
+    <div class="section-header">
+      <h2 class="section-title">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="22" height="22">
+          <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+          <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+        </svg>
+        <span>Courses Taught as Teaching Assistant</span>
+      </h2>
+    </div>
+
+    <div class="courses-grid">
+      {% for course in page.courses %}
+        <div class="course-card">
+          <div class="course-card-header">
+            <span class="badge badge-primary">{{ course.badge }}</span>
+            <span class="course-terms">{{ course.terms }}</span>
+          </div>
+
+          <h3 class="course-code">{{ course.code }}</h3>
+          <h4 class="course-name">{{ course.name }}</h4>
+          <p class="course-instructor">Instructor: <strong>{{ course.instructor }}</strong></p>
+          <p class="course-desc">{{ course.description }}</p>
+
+          {% if course.url %}
+            <div class="course-footer">
+              <a href="{{ course.url }}" class="btn btn-sm btn-outline" target="_blank" rel="noopener">
+                <span>Course Webpage</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <!-- Guest Lectures Section -->
+  <section class="guest-lectures-section">
+    <div class="section-header">
+      <h2 class="section-title">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="22" height="22">
+          <polygon points="23 7 16 12 23 17 23 7"></polygon>
+          <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
+        </svg>
+        <span>Graduate Guest Lectures</span>
+      </h2>
+    </div>
+
+    <div class="guest-lectures-list">
+      {% for lecture in page.guest_lectures %}
+        <div class="lecture-card">
+          <div class="lecture-info">
+            <span class="lecture-course">{{ lecture.course }} ({{ lecture.term }})</span>
+            <h3 class="lecture-title">{{ lecture.title }}</h3>
+          </div>
+          {% if lecture.slides_url %}
+            <a href="{{ lecture.slides_url }}" class="btn btn-sm btn-primary" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+              <span>View Slides</span>
+            </a>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+</div>

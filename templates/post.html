@@ -1,0 +1,49 @@
+<div class="page-layout post-layout">
+  <!-- Back Link -->
+  <div class="post-back-nav">
+    <a href="blog.html" class="back-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+        <line x1="19" y1="12" x2="5" y2="12"></line>
+        <polyline points="12 19 5 12 12 5"></polyline>
+      </svg>
+      <span>Back to All Posts</span>
+    </a>
+  </div>
+
+  <!-- Post Header -->
+  <article class="post-article content-card">
+    <header class="post-header">
+      <div class="post-meta">
+        <span class="post-date">{{ page.date }}</span>
+        {% if page.reading_time %}
+          <span class="post-read-time">· {{ page.reading_time }} min read</span>
+        {% endif %}
+      </div>
+
+      <h1 class="post-title">{{ page.title }}</h1>
+
+      {% if page.tags %}
+        <div class="post-tags">
+          {% for tag in page.tags %}
+            <span class="tag">#{{ tag }}</span>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </header>
+
+    <div class="markdown-body post-body">
+      {{ page.body_html | safe }}
+    </div>
+
+    <footer class="post-footer">
+      <div class="post-author-box">
+        <img src="{{ site.avatar }}" alt="{{ site.author }}" class="post-author-img" width="54" height="54">
+        <div>
+          <h4 class="post-author-name">{{ site.author }}</h4>
+          <p class="post-author-bio">{{ site.role }} · {{ site.institution }}</p>
+        </div>
+      </div>
+      <a href="blog.html" class="btn btn-outline">More Articles &rarr;</a>
+    </footer>
+  </article>
+</div>

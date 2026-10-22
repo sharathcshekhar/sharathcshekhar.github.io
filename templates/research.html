@@ -1,0 +1,44 @@
+<div class="page-layout research-layout">
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="page-header-pill">Research Portfolio</div>
+    <h1 class="page-title">{{ page.heading | default: "Research Projects" }}</h1>
+    <p class="page-tagline">{{ page.tagline }}</p>
+  </header>
+
+  <!-- Research Statement / Overview -->
+  <section class="content-card mb-8">
+    <div class="markdown-body">
+      {{ page.body_html | safe }}
+    </div>
+  </section>
+
+  <!-- Publications & Patents Section -->
+  <section class="publications-section">
+    <div class="section-header">
+      <h2 class="section-title">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="22" height="22">
+          <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+          <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+        </svg>
+        <span>Publications & Patents</span>
+      </h2>
+      <p class="section-subtitle">Conference proceedings, workshop papers, demos, and patent disclosures.</p>
+    </div>
+
+    <!-- Filter Buttons -->
+    <div class="pub-filter-bar" id="pub-filters">
+      <button class="filter-btn active" data-filter="all">All ({{ site.publications_count }})</button>
+      <button class="filter-btn" data-filter="BlueMountain">BlueMountain</button>
+      <button class="filter-btn" data-filter="Cider">Cider</button>
+      <button class="filter-btn" data-filter="Patent">Patents</button>
+    </div>
+
+    <!-- Publication Cards List -->
+    <div class="pub-list" id="pub-container">
+      {% for pub in site.publications %}
+        {% include "components/pub_card.html" %}
+      {% endfor %}
+    </div>
+  </section>
+</div>

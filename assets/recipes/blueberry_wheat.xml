@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RECIPE>
+    <AGE>14</AGE>
+    <FERMENTATION_STAGES>1</FERMENTATION_STAGES>
+    <BATCH_SIZE>4.731764736415039</BATCH_SIZE>
+    <SECONDARY_TEMP>21.0</SECONDARY_TEMP>
+    <TYPE>Partial Mash</TYPE>
+    <BOIL_SIZE>6.245929452067852</BOIL_SIZE>
+    <TERTIARY_TEMP>21.0</TERTIARY_TEMP>
+    <DISPLAY_OG>0.0</DISPLAY_OG>
+    <NAME>Blueberry Wheat</NAME>
+    <FG>1.007</FG>
+    <EQUIPMENT/>
+    <SECONDARY_AGE>0</SECONDARY_AGE>
+    <PRIMARY_AGE>14</PRIMARY_AGE>
+    <OG>1.056</OG>
+    <VERSION>1</VERSION>
+    <PRIMARY_TEMP>21.0</PRIMARY_TEMP>
+    <NOTES/>
+    <DISPLAY_FG>0.0</DISPLAY_FG>
+    <BREWER/>
+    <TERTIARY_AGE>0</TERTIARY_AGE>
+    <BOIL_TIME>60</BOIL_TIME>
+    <EFFICIENCY>75.0</EFFICIENCY>
+    <HOPS>
+      <HOP>
+        <NAME>Nugget</NAME>
+        <VERSION>0</VERSION>
+        <ALPHA>14.2</ALPHA>
+        <AMOUNT>9.9223E-4</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>60</TIME>
+        <NOTES>No description</NOTES>
+        <TYPE>Hop</TYPE>
+        <FORM>Pellet</FORM>
+      </HOP>
+      <HOP>
+        <NAME>Saaz</NAME>
+        <VERSION>0</VERSION>
+        <ALPHA>2.2</ALPHA>
+        <AMOUNT>0.0056699</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>30</TIME>
+        <NOTES>No description</NOTES>
+        <TYPE>Hop</TYPE>
+        <FORM>Pellet</FORM>
+      </HOP>
+      <HOP>
+        <NAME>Saaz</NAME>
+        <VERSION>0</VERSION>
+        <ALPHA>2.2</ALPHA>
+        <AMOUNT>0.00566990463296951</AMOUNT>
+        <USE>First Wort</USE>
+        <TIME>60</TIME>
+        <NOTES>No description</NOTES>
+        <TYPE>Hop</TYPE>
+        <FORM>Pellet</FORM>
+      </HOP>
+    </HOPS>
+    <FERMENTABLES>
+      <FERMENTABLE>
+        <NAME>Wheat Dry Extract</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Extract</TYPE>
+        <AMOUNT>0.6352087114337567</AMOUNT>
+        <YIELD>95.65217391304358</YIELD>
+        <COLOR>8.0</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Barley, Flaked</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Grain</TYPE>
+        <AMOUNT>0.09071847</AMOUNT>
+        <YIELD>69.23999999999988</YIELD>
+        <COLOR>1.7000000476837158</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Six-row (US)</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Grain</TYPE>
+        <AMOUNT>0.06803886</AMOUNT>
+        <YIELD>75.72999999999993</YIELD>
+        <COLOR>1.7999999523162842</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+    </FERMENTABLES>
+    <MISCS>
+      <MISC>
+        <AMOUNT_IS_WEIGHT>false</AMOUNT_IS_WEIGHT>
+        <AMOUNT>0.29573500</AMOUNT>
+        <USE_FOR>Boil</USE_FOR>
+        <TYPE>Misc</TYPE>
+        <VERSION>1</VERSION>
+        <NOTES>Custom misc</NOTES>
+        <NAME>Blueberries</NAME>
+        <USE>Boil</USE>
+        <DISPLAY_AMOUNT>10.0 oz</DISPLAY_AMOUNT>
+        <DISPLAY_TIME>15 mins</DISPLAY_TIME>
+      </MISC>
+      <MISC>
+        <AMOUNT_IS_WEIGHT>false</AMOUNT_IS_WEIGHT>
+        <AMOUNT>0.29573500</AMOUNT>
+        <USE_FOR>Boil</USE_FOR>
+        <TYPE>Misc</TYPE>
+        <VERSION>1</VERSION>
+        <NOTES>Custom misc</NOTES>
+        <NAME>Blueberries</NAME>
+        <USE>Secondary</USE>
+        <DISPLAY_AMOUNT>10.0 oz</DISPLAY_AMOUNT>
+        <DISPLAY_TIME>10 days</DISPLAY_TIME>
+      </MISC>
+    </MISCS>
+    <YEASTS>
+      <YEAST>
+        <NAME>Safbrew WB-06</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Yeast</TYPE>
+        <AMOUNT>0.0</AMOUNT>
+        <LABORATORY>Fermentis</LABORATORY>
+        <PRODUCT_ID>WB-06</PRODUCT_ID>
+        <MIN_TEMPERATURE>0</MIN_TEMPERATURE>
+        <MAX_TEMPERATURE>0</MAX_TEMPERATURE>
+        <ATTENUATION>86.0</ATTENUATION>
+      </YEAST>
+    </YEASTS>
+    <WATERS/>
+    <MASH>
+      <TUN_WEIGHT>160.00000000</TUN_WEIGHT>
+      <GRAIN_TEMP>22.22222220</GRAIN_TEMP>
+      <VERSION>1</VERSION>
+      <NAME>BIAB, Medium Body</NAME>
+      <NOTES>Brew in a bag method where the full boil volume is mashed within the boil vessel and then the grains are withdrawn at the end of the mash.  No active sparging is required.  This is a medium body beer profile.</NOTES>
+      <TUN_SPECIFIC_HEAT>0.30000000</TUN_SPECIFIC_HEAT>
+      <EQUIP_ADJUST>FALSE</EQUIP_ADJUST>
+      <TUN_TEMP>22.22222220</TUN_TEMP>
+      <SPARGE_TEMP>75.60000000</SPARGE_TEMP>
+      <PH>5.20000000</PH>
+      <MASH_STEPS>
+        <MASH_STEP>
+          <RAMP_TIME>10.00000000</RAMP_TIME>
+          <STEP_TEMP>66.70000000</STEP_TEMP>
+          <INFUSE_AMOUNT>6.40468678</INFUSE_AMOUNT>
+          <END_TIME>66.70000000</END_TIME>
+          <STEP_TIME>75.00000000</STEP_TIME>
+          <TYPE>Infusion</TYPE>
+          <VERSION>1</VERSION>
+          <NAME>Saccharification</NAME>
+        </MASH_STEP>
+        <MASH_STEP>
+          <RAMP_TIME>7.00000000</RAMP_TIME>
+          <STEP_TEMP>75.55555560</STEP_TEMP>
+          <INFUSE_AMOUNT>0.00000000</INFUSE_AMOUNT>
+          <END_TIME>75.55555560</END_TIME>
+          <STEP_TIME>10.00000000</STEP_TIME>
+          <TYPE>Temperature</TYPE>
+          <VERSION>1</VERSION>
+          <NAME>Mash Out</NAME>
+        </MASH_STEP>
+      </MASH_STEPS>
+    </MASH>
+    <STYLE>
+      <PROFILE>Aroma: Low to moderate grainy wheat or rye character. Some malty sweetness is acceptable. Esters can be moderate to none, although should reflect American yeast strains. The clove and banana aromas common to German hefeweizens are inappropriate. Hop aroma may be low to moderate, and can have either a citrusy American or a spicy or floral noble hop character. Slight crisp sharpness is optional. No diacetyl. Appearance: Usually pale yellow to gold. Clarity may range from brilliant to hazy with yeast approximating the German hefeweizen style of beer. Big, long-lasting white head. Flavor: Light to moderately strong grainy wheat or rye flavor, which can linger into the finish. Rye versions are richer and spicier than wheat. May have a moderate malty sweetness or finish quite dry. Low to moderate hop bitterness, which sometimes lasts into the finish. Low to moderate hop flavor (citrusy American or spicy/floral noble). Esters can be moderate to none, but should not take on a German Weizen character (banana). No clove phenols, although a light spiciness from wheat or rye is acceptable. May have a slightly crisp or sharp finish. No diacetyl. Mouthfeel: Medium-light to medium body. Medium-high to high carbonation. May have a light alcohol warmth in stronger examples.</PROFILE>
+      <ABV_MIN>4.00000000</ABV_MIN>
+      <CARB_MAX>0.00000000</CARB_MAX>
+      <FG_MAX>1.01300000</FG_MAX>
+      <IBU_MAX>30.00000000</IBU_MAX>
+      <TYPE>Mixed</TYPE>
+      <NAME>American Wheat or Rye Beer</NAME>
+      <STYLE_GUIDE>BJCP 2008</STYLE_GUIDE>
+      <OG_MIN>1.04000000</OG_MIN>
+      <CATEGORY>Light Hybrid Beer</CATEGORY>
+      <OG_MAX>1.05500000</OG_MAX>
+      <COLOR_MIN>3.00000000</COLOR_MIN>
+      <ABV_MAX>5.50000000</ABV_MAX>
+      <EXAMPLES>Bell's Oberon, Harpoon UFO Hefeweizen, Three Floyds Gumballhead, Pyramid Hefe-Weizen, Widmer Hefeweizen, Sierra Nevada Unfiltered Wheat Beer, Anchor Summer Beer, Redhook Sunrye, Real Ale Full Moon Pale Rye</EXAMPLES>
+      <INGREDIENTS>Clean American ale yeast, but also lager. up to 50+% wheat malt. American/noble hops. American Rye Beers can follow the same general guidelines, substituting rye for some or all of the wheat. Other base styles (e.g., IPA, stout) with a noticeable rye character should be entered in the Specialty Beer category (23).</INGREDIENTS>
+      <FG_MIN>1.00800000</FG_MIN>
+      <STYLE_LETTER>D</STYLE_LETTER>
+      <VERSION>1</VERSION>
+      <NOTES>Refreshing wheat or rye beers that can display more hop character and less yeast character than their German cousins. Different variations exist, from an easy-drinking fairly sweet beer to a dry, aggressively hopped beer with a strong wheat or rye flavor. Dark versions approximating dunkelweizens (with darker, richer malt flavors in addition to the color) should be entered in the Specialty Beer category. THE BREWER SHOULD SPECIFY IF RYE IS USED; IF NO DOMINANT GRAIN IS SPECIFIED, WHEAT WILL BE ASSUMED.</NOTES>
+      <IBU_MIN>15.00000000</IBU_MIN>
+      <CARB_MIN>0.00000000</CARB_MIN>
+      <COLOR_MAX>6.00000000</COLOR_MAX>
+      <CATEGORY_NUMBER>6</CATEGORY_NUMBER>
+    </STYLE>
+  </RECIPE>

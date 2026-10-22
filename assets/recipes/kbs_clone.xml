@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RECIPE>
+    <AGE>14</AGE>
+    <FERMENTATION_STAGES>1</FERMENTATION_STAGES>
+    <BATCH_SIZE>6.245929452067852</BATCH_SIZE>
+    <SECONDARY_TEMP>21.0</SECONDARY_TEMP>
+    <TYPE>Partial Mash</TYPE>
+    <BOIL_SIZE>7.570823578264063</BOIL_SIZE>
+    <TERTIARY_TEMP>21.0</TERTIARY_TEMP>
+    <DISPLAY_OG>0.0</DISPLAY_OG>
+    <NAME>KBS Clone</NAME>
+    <FG>1.018</FG>
+    <EQUIPMENT/>
+    <SECONDARY_AGE>0</SECONDARY_AGE>
+    <PRIMARY_AGE>14</PRIMARY_AGE>
+    <OG>1.094</OG>
+    <VERSION>1</VERSION>
+    <PRIMARY_TEMP>21.0</PRIMARY_TEMP>
+    <NOTES>Sumatran coffee
+Kona blend cold brew
+Hungarian oaks</NOTES>
+    <DISPLAY_FG>0.0</DISPLAY_FG>
+    <BREWER/>
+    <TERTIARY_AGE>0</TERTIARY_AGE>
+    <BOIL_TIME>60</BOIL_TIME>
+    <EFFICIENCY>80.0</EFFICIENCY>
+    <HOPS>
+      <HOP>
+        <NAME>Nugget</NAME>
+        <VERSION>0</VERSION>
+        <ALPHA>14.1</ALPHA>
+        <AMOUNT>0.00922743</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>60</TIME>
+        <NOTES>No description</NOTES>
+        <TYPE>Hop</TYPE>
+        <FORM>Pellet</FORM>
+      </HOP>
+      <HOP>
+        <NAME>Willamette</NAME>
+        <VERSION>0</VERSION>
+        <ALPHA>4.5</ALPHA>
+        <AMOUNT>0.01133981</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>25</TIME>
+        <NOTES>No description</NOTES>
+        <TYPE>Hop</TYPE>
+        <FORM>Pellet</FORM>
+      </HOP>
+      <HOP>
+        <NAME>Willamette</NAME>
+        <VERSION>0</VERSION>
+        <ALPHA>4.5</ALPHA>
+        <AMOUNT>0.01700971</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>10</TIME>
+        <NOTES>No description</NOTES>
+        <TYPE>Hop</TYPE>
+        <FORM>Pellet</FORM>
+      </HOP>
+    </HOPS>
+    <FERMENTABLES>
+      <FERMENTABLE>
+        <NAME>Pilsen Light DME</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Extract</TYPE>
+        <AMOUNT>1.0886217</AMOUNT>
+        <YIELD>90.87999999999992</YIELD>
+        <COLOR>1.899999976158142</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Flaked Oats</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Adjunct</TYPE>
+        <AMOUNT>0.27215542</AMOUNT>
+        <YIELD>71.40999999999977</YIELD>
+        <COLOR>2.200000047683716</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Six-row (US)</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Grain</TYPE>
+        <AMOUNT>0.22679619</AMOUNT>
+        <YIELD>75.72999999999993</YIELD>
+        <COLOR>1.7999999523162842</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Chocolate Wheat Malt</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Grain</TYPE>
+        <AMOUNT>0.11339809</AMOUNT>
+        <YIELD>71.40999999999977</YIELD>
+        <COLOR>400.0</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Roasted Barley</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Grain</TYPE>
+        <AMOUNT>0.11339809</AMOUNT>
+        <YIELD>60.589999999999975</YIELD>
+        <COLOR>375.0</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Carafa Special III</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Grain</TYPE>
+        <AMOUNT>0.07484274</AMOUNT>
+        <YIELD>77.89999999999982</YIELD>
+        <COLOR>525.0</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Special "B" (Belgian)</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Grain</TYPE>
+        <AMOUNT>0.07484274</AMOUNT>
+        <YIELD>64.9200000000002</YIELD>
+        <COLOR>140.0</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+    </FERMENTABLES>
+    <MISCS>
+      <MISC>
+        <AMOUNT_IS_WEIGHT>false</AMOUNT_IS_WEIGHT>
+        <AMOUNT>0.02957350</AMOUNT>
+        <USE_FOR>Boil</USE_FOR>
+        <TYPE>Misc</TYPE>
+        <VERSION>1</VERSION>
+        <NOTES>Custom misc</NOTES>
+        <NAME>Cacao Nibs</NAME>
+        <USE>Boil</USE>
+        <DISPLAY_AMOUNT>1.0 oz</DISPLAY_AMOUNT>
+        <DISPLAY_TIME>5 mins</DISPLAY_TIME>
+      </MISC>
+      <MISC>
+        <AMOUNT_IS_WEIGHT>false</AMOUNT_IS_WEIGHT>
+        <AMOUNT>0.08872050</AMOUNT>
+        <USE_FOR>Secondary</USE_FOR>
+        <TYPE>Misc</TYPE>
+        <VERSION>1</VERSION>
+        <NOTES>Custom misc</NOTES>
+        <NAME>Bourbon</NAME>
+        <USE>Secondary</USE>
+        <DISPLAY_AMOUNT>3.0 oz</DISPLAY_AMOUNT>
+        <DISPLAY_TIME>75 days</DISPLAY_TIME>
+      </MISC>
+      <MISC>
+        <AMOUNT_IS_WEIGHT>false</AMOUNT_IS_WEIGHT>
+        <AMOUNT>0.02957350</AMOUNT>
+        <USE_FOR>Boil</USE_FOR>
+        <TYPE>Misc</TYPE>
+        <VERSION>1</VERSION>
+        <NOTES>Custom misc</NOTES>
+        <NAME>Chocolate Bittersweet</NAME>
+        <USE>Boil</USE>
+        <DISPLAY_AMOUNT>1.0 oz</DISPLAY_AMOUNT>
+        <DISPLAY_TIME>5 mins</DISPLAY_TIME>
+      </MISC>
+      <MISC>
+        <AMOUNT_IS_WEIGHT>false</AMOUNT_IS_WEIGHT>
+        <AMOUNT>0.01922278</AMOUNT>
+        <USE_FOR>Boil</USE_FOR>
+        <TYPE>Misc</TYPE>
+        <VERSION>1</VERSION>
+        <NOTES>Custom misc</NOTES>
+        <NAME>Coffee</NAME>
+        <USE>Boil</USE>
+        <DISPLAY_AMOUNT>0.65 oz</DISPLAY_AMOUNT>
+        <DISPLAY_TIME>5 mins</DISPLAY_TIME>
+      </MISC>
+      <MISC>
+        <AMOUNT_IS_WEIGHT>false</AMOUNT_IS_WEIGHT>
+        <AMOUNT>0.01922278</AMOUNT>
+        <USE_FOR>Secondary</USE_FOR>
+        <TYPE>Misc</TYPE>
+        <VERSION>1</VERSION>
+        <NOTES>Custom misc</NOTES>
+        <NAME>Coffee Cold Brew</NAME>
+        <USE>Secondary</USE>
+        <DISPLAY_AMOUNT>0.65 oz</DISPLAY_AMOUNT>
+        <DISPLAY_TIME>75 days</DISPLAY_TIME>
+      </MISC>
+      <MISC>
+        <AMOUNT_IS_WEIGHT>false</AMOUNT_IS_WEIGHT>
+        <AMOUNT>0.02957350</AMOUNT>
+        <USE_FOR>Secondary</USE_FOR>
+        <TYPE>Misc</TYPE>
+        <VERSION>1</VERSION>
+        <NOTES>Custom misc</NOTES>
+        <NAME>Oak Cubes</NAME>
+        <USE>Secondary</USE>
+        <DISPLAY_AMOUNT>1.0 oz</DISPLAY_AMOUNT>
+        <DISPLAY_TIME>75 days</DISPLAY_TIME>
+      </MISC>
+    </MISCS>
+    <YEASTS>
+      <YEAST>
+        <NAME>Safale US-05</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Yeast</TYPE>
+        <AMOUNT>0.05</AMOUNT>
+        <LABORATORY>Fermentis</LABORATORY>
+        <PRODUCT_ID>US-05</PRODUCT_ID>
+        <MIN_TEMPERATURE>18</MIN_TEMPERATURE>
+        <MAX_TEMPERATURE>18</MAX_TEMPERATURE>
+        <ATTENUATION>80.0</ATTENUATION>
+      </YEAST>
+    </YEASTS>
+    <WATERS/>
+    <MASH>
+      <TUN_WEIGHT>160.00000000</TUN_WEIGHT>
+      <GRAIN_TEMP>22.22222220</GRAIN_TEMP>
+      <VERSION>1</VERSION>
+      <NAME>BIAB, Medium Body</NAME>
+      <NOTES>Brew in a bag method where the full boil volume is mashed within the boil vessel and then the grains are withdrawn at the end of the mash.  No active sparging is required.  This is a medium body beer profile.</NOTES>
+      <TUN_SPECIFIC_HEAT>0.30000000</TUN_SPECIFIC_HEAT>
+      <EQUIP_ADJUST>FALSE</EQUIP_ADJUST>
+      <TUN_TEMP>22.22222220</TUN_TEMP>
+      <SPARGE_TEMP>75.60000000</SPARGE_TEMP>
+      <PH>5.20000000</PH>
+      <MASH_STEPS>
+        <MASH_STEP>
+          <RAMP_TIME>10.00000000</RAMP_TIME>
+          <STEP_TEMP>66.70000000</STEP_TEMP>
+          <INFUSE_AMOUNT>8.44625685</INFUSE_AMOUNT>
+          <END_TIME>66.70000000</END_TIME>
+          <STEP_TIME>75.00000000</STEP_TIME>
+          <TYPE>Infusion</TYPE>
+          <VERSION>1</VERSION>
+          <NAME>Saccharification</NAME>
+        </MASH_STEP>
+        <MASH_STEP>
+          <RAMP_TIME>7.00000000</RAMP_TIME>
+          <STEP_TEMP>75.55555560</STEP_TEMP>
+          <INFUSE_AMOUNT>0.00000000</INFUSE_AMOUNT>
+          <END_TIME>75.55555560</END_TIME>
+          <STEP_TIME>10.00000000</STEP_TIME>
+          <TYPE>Temperature</TYPE>
+          <VERSION>1</VERSION>
+          <NAME>Mash Out</NAME>
+        </MASH_STEP>
+      </MASH_STEPS>
+    </MASH>
+    <STYLE>
+      <PROFILE>Aroma: Rich and complex, with variable amounts of roasted grains, maltiness, fruity esters, hops, and alcohol. The roasted malt character can take on coffee, dark chocolate, or slightly burnt tones and can be light to moderately strong. The malt aroma can be subtle to rich and barleywine-like, depending on the gravity and grain bill. May optionally show a slight specialty malt character (e.g., caramel), but this should only add complexity and not dominate. Fruity esters may be low to moderately strong, and may take on a complex, dark fruit (e.g., plums, prunes, raisins) character. Hop aroma can be very low to quite aggressive, and may contain any hop variety. An alcohol character may be present, but shouldn’t be sharp, hot or solventy. Aged versions may have a slight vinous or portlike quality, but shouldn’t be sour. No diacetyl. The balance can vary with any of the aroma elements taking center stage. Not all possible aromas described need be present; many interpretations are possible. Aging affects the intensity, balance and smoothness of aromatics. Appearance: Color may range from very dark reddish-brown to jet black. Opaque. Deep tan to dark brown head. Generally has a well-formed head, although head retention may be low to moderate. High alcohol and viscosity may be visible in “legs” when beer is swirled in a glass. Flavor: Rich, deep, complex and frequently quite intense, with variable amounts of roasted malt/grains, maltiness, fruity esters, hop bitterness and flavor, and alcohol. Medium to aggressively high bitterness. Medium-low to high hop flavor (any variety). Moderate to aggressively high roasted malt/grain flavors can suggest bittersweet or unsweetened chocolate, cocoa, and/or strong coffee. A slightly burnt grain, burnt currant or tarry character may be evident. Fruity esters may be low to intense, and can take on a dark fruit character (raisins, plums, or prunes). Malt backbone can be balanced and supportive to rich and barleywine-like, and may optionally show some supporting caramel, bready or toasty flavors. Alcohol strength should be evident, but not hot, sharp, or solventy. No diacetyl. The palate and finish can vary from relatively dry to moderately sweet, usually with some lingering roastiness, hop bitterness and warming character. The balance and intensity of flavors can be affected by aging, with some flavors becoming more subdued over time and some aged, vinous or port-like qualities developing. Mouthfeel: Full to very full-bodied and chewy, with a velvety, luscious texture (although the body may decline with long conditioning). Gentle smooth warmth from alcohol should be present and noticeable. Should not be syrupy and underattenuated. Carbonation may be low to moderate, depending on age and conditioning.</PROFILE>
+      <ABV_MIN>8.00000000</ABV_MIN>
+      <CARB_MAX>0.00000000</CARB_MAX>
+      <FG_MAX>1.03000000</FG_MAX>
+      <IBU_MAX>90.00000000</IBU_MAX>
+      <TYPE>Ale</TYPE>
+      <NAME>Imperial Stout</NAME>
+      <STYLE_GUIDE>BJCP 2008</STYLE_GUIDE>
+      <OG_MIN>1.07500000</OG_MIN>
+      <CATEGORY>Stout</CATEGORY>
+      <OG_MAX>1.11500000</OG_MAX>
+      <COLOR_MIN>30.00000000</COLOR_MIN>
+      <ABV_MAX>12.00000000</ABV_MAX>
+      <EXAMPLES>Three Floyd’s Dark Lord, Bell’s Expedition Stout, North Coast Old Rasputin Imperial Stout, Stone Imperial Stout, Samuel Smith Imperial Stout, Scotch Irish Tsarina Katarina Imperial Stout, Thirsty Dog Siberian Night, Deschutes The Abyss, Great Divide Yeti, Southampton Russian Imperial Stout, Rogue Imperial Stout, Bear Republic Big Bear Black Stout, Great Lakes Blackout Stout, Avery The Czar, Founders Imperial Stout, Victory Storm King, Brooklyn Black Chocolate Stout</EXAMPLES>
+      <INGREDIENTS>Well-modified pale malt, with generous quantities of roasted malts and/or grain. May have a complex grain bill using virtually any variety of malt. Any type of hops may be used. Alkaline water balances the abundance of acidic roasted grain in the grist. American or English ale yeast.</INGREDIENTS>
+      <FG_MIN>1.01800000</FG_MIN>
+      <STYLE_LETTER>F</STYLE_LETTER>
+      <VERSION>1</VERSION>
+      <NOTES>An intensely flavored, big, dark ale. Roasty, fruity, and bittersweet, with a noticeable alcohol presence. Dark fruit flavors meld with roasty, burnt, or almost tarlike sensations. Like a black barleywine with every dimension of flavor coming into play. Brewed to high gravity and hopping level in England for export to the Baltic States and Russia. Said to be popular with the Russian Imperial Court. Today is even more popular with American craft brewers, who have extended the style with unique American characteristics. Variations exist, with English and American interpretations (predictably, the American versions have more bitterness, roasted character, and finishing hops, while the English varieties reflect a more complex specialty malt character and a more forward ester profile). The wide range of allowable characteristics allow for maximum brewer creativity.</NOTES>
+      <IBU_MIN>50.00000000</IBU_MIN>
+      <CARB_MIN>0.00000000</CARB_MIN>
+      <COLOR_MAX>40.00000000</COLOR_MAX>
+      <CATEGORY_NUMBER>13</CATEGORY_NUMBER>
+    </STYLE>
+  </RECIPE>

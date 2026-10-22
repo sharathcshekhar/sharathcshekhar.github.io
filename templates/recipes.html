@@ -1,0 +1,87 @@
+<div class="page-layout recipes-layout">
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="page-header-pill">Nano-Brewery Lab</div>
+    <h1 class="page-title">Beer Recipes</h1>
+    <p class="page-tagline">1–2 Gallon Small Batch Formulations & BeerXML Downloads</p>
+  </header>
+
+  <!-- Recipe Controls: Search & Filter -->
+  <section class="recipe-controls mb-8">
+    <div class="recipe-search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" class="search-icon">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+      <input type="text" id="recipe-search" placeholder="Search recipes by name, style, or ingredient..." autocomplete="off">
+      <button id="clear-search" class="clear-search-btn hidden">&times;</button>
+    </div>
+
+    <div class="recipe-quick-tags" id="style-filters">
+      <button class="style-tag active" data-style="all">All Styles ({{ site.recipes_count }})</button>
+      <button class="style-tag" data-style="Stout">Stouts & Porters</button>
+      <button class="style-tag" data-style="IPA">IPAs</button>
+      <button class="style-tag" data-style="Witbier">Wheat & Witbier</button>
+      <button class="style-tag" data-style="Belgian">Belgian & Saison</button>
+    </div>
+  </section>
+
+  <!-- Recipes Grid -->
+  <div class="recipes-grid" id="recipes-container">
+    {% for rec in site.recipes %}
+      <article class="recipe-card" id="{{ rec.id }}" data-style="{{ rec.style }}" data-name="{{ rec.name }}">
+        <div class="recipe-card-header">
+          <div>
+            <span class="badge badge-beer">{{ rec.style }}</span>
+            <h2 class="recipe-title">{{ rec.name }}</h2>
+          </div>
+          {% if rec.award %}
+            <span class="badge badge-award" title="{{ rec.award }}">🏆 Award</span>
+          {% endif %}
+        </div>
+
+        <p class="recipe-desc">{{ rec.description }}</p>
+
+        <div class="recipe-actions">
+          {% if rec.xml_file %}
+            <button class="btn btn-sm btn-primary toggle-recipe-btn" data-recipe="{{ rec.xml_file }}">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+                <path d="M4 6h16M4 12h16M4 18h16"></path>
+              </svg>
+              <span>View Ingredients</span>
+            </button>
+
+            <a href="assets/recipes/{{ rec.xml_file }}.xml" class="btn btn-sm btn-outline" download target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>BeerXML</span>
+            </a>
+          {% else %}
+            <span class="badge badge-secondary">{{ rec.status }}</span>
+          {% endif %}
+        </div>
+
+        {% if rec.xml_file %}
+          <div id="{{ rec.xml_file }}_div" class="recipe-details-panel hidden">
+            <div id="{{ rec.xml_file }}_sum" class="recipe-summary-box">
+              <span class="loading-spinner">Loading recipe metrics...</span>
+            </div>
+            <div class="table-responsive">
+              <table id="{{ rec.xml_file }}_table" class="recipe-table"></table>
+            </div>
+          </div>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </div>
+
+  <!-- Back to Top Button -->
+  <button id="back-to-top" class="back-to-top-btn" title="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+</div>

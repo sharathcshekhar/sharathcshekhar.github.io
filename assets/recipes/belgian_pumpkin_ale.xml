@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RECIPE>
+    <AGE>14</AGE>
+    <FERMENTATION_STAGES>1</FERMENTATION_STAGES>
+    <BATCH_SIZE>3.7854117891320316</BATCH_SIZE>
+    <SECONDARY_TEMP>21.0</SECONDARY_TEMP>
+    <TYPE>Partial Mash</TYPE>
+    <BOIL_SIZE>4.731764736415039</BOIL_SIZE>
+    <TERTIARY_TEMP>21.0</TERTIARY_TEMP>
+    <DISPLAY_OG>0.0</DISPLAY_OG>
+    <NAME>Belgian Pumpkin Ale</NAME>
+    <FG>1.011</FG>
+    <EQUIPMENT/>
+    <SECONDARY_AGE>0</SECONDARY_AGE>
+    <PRIMARY_AGE>14</PRIMARY_AGE>
+    <OG>1.048</OG>
+    <VERSION>1</VERSION>
+    <PRIMARY_TEMP>21.0</PRIMARY_TEMP>
+    <NOTES>Pumpkin will add additional ABV</NOTES>
+    <DISPLAY_FG>0.0</DISPLAY_FG>
+    <BREWER/>
+    <TERTIARY_AGE>0</TERTIARY_AGE>
+    <BOIL_TIME>60</BOIL_TIME>
+    <EFFICIENCY>60.0</EFFICIENCY>
+    <HOPS>
+      <HOP>
+        <NAME>Nugget</NAME>
+        <VERSION>0</VERSION>
+        <ALPHA>14.1</ALPHA>
+        <AMOUNT>8.5049E-4</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>60</TIME>
+        <NOTES>No description</NOTES>
+        <TYPE>Hop</TYPE>
+        <FORM>Pellet</FORM>
+      </HOP>
+      <HOP>
+        <NAME>Hallertau</NAME>
+        <VERSION>0</VERSION>
+        <ALPHA>2.5</ALPHA>
+        <AMOUNT>0.00708738</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>30</TIME>
+        <NOTES>No description</NOTES>
+        <TYPE>Hop</TYPE>
+        <FORM>Pellet</FORM>
+      </HOP>
+      <HOP>
+        <NAME>Hallertau</NAME>
+        <VERSION>0</VERSION>
+        <ALPHA>2.5</ALPHA>
+        <AMOUNT>0.00708738</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>15</TIME>
+        <NOTES>No description</NOTES>
+        <TYPE>Hop</TYPE>
+        <FORM>Pellet</FORM>
+      </HOP>
+    </HOPS>
+    <FERMENTABLES>
+      <FERMENTABLE>
+        <NAME>Pilsen Light DME</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Extract</TYPE>
+        <AMOUNT>0.34019428</AMOUNT>
+        <YIELD>90.87999999999992</YIELD>
+        <COLOR>1.899999976158142</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Munich (German)</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Grain</TYPE>
+        <AMOUNT>0.13607771</AMOUNT>
+        <YIELD>80.06000000000016</YIELD>
+        <COLOR>8.0</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Two-row (US)</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Grain</TYPE>
+        <AMOUNT>0.09071847</AMOUNT>
+        <YIELD>80.06000000000016</YIELD>
+        <COLOR>1.7999999523162842</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Biscuit (Belgian)</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Grain</TYPE>
+        <AMOUNT>0.06803886</AMOUNT>
+        <YIELD>75.72999999999993</YIELD>
+        <COLOR>24.0</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Crystal 40L</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Grain</TYPE>
+        <AMOUNT>0.04535924</AMOUNT>
+        <YIELD>73.5700000000001</YIELD>
+        <COLOR>40.0</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+    </FERMENTABLES>
+    <MISCS>
+      <MISC>
+        <AMOUNT_IS_WEIGHT>false</AMOUNT_IS_WEIGHT>
+        <AMOUNT>0.22686025</AMOUNT>
+        <USE_FOR>Boil</USE_FOR>
+        <TYPE>Misc</TYPE>
+        <VERSION>1</VERSION>
+        <NOTES>Custom misc</NOTES>
+        <NAME>Pumpkin Extract</NAME>
+        <USE>Boil</USE>
+        <DISPLAY_AMOUNT>0.5 lbs</DISPLAY_AMOUNT>
+        <DISPLAY_TIME>30 mins</DISPLAY_TIME>
+      </MISC>
+      <MISC>
+        <AMOUNT_IS_WEIGHT>false</AMOUNT_IS_WEIGHT>
+        <AMOUNT>0.00246446</AMOUNT>
+        <USE_FOR>Boil</USE_FOR>
+        <TYPE>Misc</TYPE>
+        <VERSION>1</VERSION>
+        <NOTES>Custom misc</NOTES>
+        <NAME>Pumpkin Pie Spice</NAME>
+        <USE>Boil</USE>
+        <DISPLAY_AMOUNT>0.5 tsp</DISPLAY_AMOUNT>
+        <DISPLAY_TIME>5 mins</DISPLAY_TIME>
+      </MISC>
+    </MISCS>
+    <YEASTS>
+      <YEAST>
+        <NAME>Safbrew T-58</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Yeast</TYPE>
+        <AMOUNT>0.0</AMOUNT>
+        <LABORATORY>Fermentis</LABORATORY>
+        <PRODUCT_ID>T-58</PRODUCT_ID>
+        <MIN_TEMPERATURE>0</MIN_TEMPERATURE>
+        <MAX_TEMPERATURE>0</MAX_TEMPERATURE>
+        <ATTENUATION>75.0</ATTENUATION>
+      </YEAST>
+    </YEASTS>
+    <WATERS/>
+    <MASH>
+      <TUN_WEIGHT>160.00000000</TUN_WEIGHT>
+      <GRAIN_TEMP>22.22222220</GRAIN_TEMP>
+      <VERSION>1</VERSION>
+      <NAME>BIAB, Medium Body</NAME>
+      <NOTES>Brew in a bag method where the full boil volume is mashed within the boil vessel and then the grains are withdrawn at the end of the mash.  No active sparging is required.  This is a medium body beer profile.</NOTES>
+      <TUN_SPECIFIC_HEAT>0.30000000</TUN_SPECIFIC_HEAT>
+      <EQUIP_ADJUST>FALSE</EQUIP_ADJUST>
+      <TUN_TEMP>22.22222220</TUN_TEMP>
+      <SPARGE_TEMP>75.60000000</SPARGE_TEMP>
+      <PH>5.20000000</PH>
+      <MASH_STEPS>
+        <MASH_STEP>
+          <RAMP_TIME>10.00000000</RAMP_TIME>
+          <STEP_TEMP>66.70000000</STEP_TEMP>
+          <INFUSE_AMOUNT>5.07195902</INFUSE_AMOUNT>
+          <END_TIME>66.70000000</END_TIME>
+          <STEP_TIME>75.00000000</STEP_TIME>
+          <TYPE>Infusion</TYPE>
+          <VERSION>1</VERSION>
+          <NAME>Saccharification</NAME>
+        </MASH_STEP>
+        <MASH_STEP>
+          <RAMP_TIME>7.00000000</RAMP_TIME>
+          <STEP_TEMP>75.55555560</STEP_TEMP>
+          <INFUSE_AMOUNT>0.00000000</INFUSE_AMOUNT>
+          <END_TIME>75.55555560</END_TIME>
+          <STEP_TIME>10.00000000</STEP_TIME>
+          <TYPE>Temperature</TYPE>
+          <VERSION>1</VERSION>
+          <NAME>Mash Out</NAME>
+        </MASH_STEP>
+      </MASH_STEPS>
+    </MASH>
+    <STYLE>
+      <PROFILE>Aroma: Variable. Most exhibit varying amounts of fruity esters, spicy phenols and/or yeast-borne aromatics. Aromas from actual spice additions may be present. Hop aroma may be none to high, and may include a dry-hopped character. Malt aroma may be low to high, and may include character of non-barley grains such as wheat or rye. Some may include aromas of Belgian microbiota, most commonly Brettanomyces and/or Lactobacillus. No diacetyl. Appearance: Variable. Color varies considerably from pale gold to very dark. Clarity may be hazy to clear. Head retention is usually good. Generally moderate to high carbonation. Flavor: Variable. A great variety of flavors are found in these beers. Maltiness may be light to quite rich. Hop flavor and bitterness may be low to high. Spicy flavors may be imparted by yeast (phenolics) and/or actual spice additions. May include characteristics of grains other than barley, such as wheat or rye. May include flavors produced by Belgian microbiota such as Brettanomyces or Lactobacillus. May include flavors from adjuncts such as caramelized sugar syrup or honey. Mouthfeel: Variable. Some are well-attenuated, thus fairly light-bodied for their original gravity, while others are thick and rich. Most are moderately to highly carbonated. A warming sensation from alcohol may be present in stronger examples. A “mouth puckering” sensation may be present from acidity.</PROFILE>
+      <ABV_MIN>3.00000000</ABV_MIN>
+      <CARB_MAX>0.00000000</CARB_MAX>
+      <FG_MAX>1.01900000</FG_MAX>
+      <IBU_MAX>40.00000000</IBU_MAX>
+      <TYPE>Ale</TYPE>
+      <NAME>Belgian Specialty Ale</NAME>
+      <STYLE_GUIDE>BJCP 2008</STYLE_GUIDE>
+      <OG_MIN>1.03000000</OG_MIN>
+      <CATEGORY>Belgian and French Ale</CATEGORY>
+      <OG_MAX>1.08000000</OG_MAX>
+      <COLOR_MIN>3.00000000</COLOR_MIN>
+      <ABV_MAX>9.00000000</ABV_MAX>
+      <EXAMPLES>Orval; De Dolle’s Arabier, Oerbier, Boskeun and Stille Nacht; La Chouffe, McChouffe, Chouffe Bok and N’ice Chouffe; Ellezelloise Hercule Stout and Quintine Amber; Unibroue Ephemere, Maudite, Don de Dieu, etc.; Minty; Zatte Bie; Caracole Amber, Saxo and Nostradamus; Silenrieu Sara and Joseph; Fantome Black Ghost and Speciale Noel; Dupont Moinette, Moinette Brune, and Avec Les Bons Voeux de la Brasserie Dupont; St. Fullien Noel; Gouden Carolus Noel; Affligem Noel; Guldenburg and Pere Noel; De Ranke XX Bitter and Guldenberg; Poperings Hommelbier; Bush (Scaldis); Moinette Brune; Grottenbier; La Trappe Quadrupel; Weyerbacher QUAD; Biere de Miel; Verboden Vrucht; New Belgium 1554 Black Ale; Cantillon Iris; Russian River Temptation; Lost Abbey Cuvee de Tomme and Devotion, Lindemans Kriek and Framboise, and many more</EXAMPLES>
+      <INGREDIENTS>May include herbs and/or spices. May include unusual grains and malts, though the grain character should be apparent if it is a key ingredient. May include adjuncts such as caramelized sugar syrup and honey. May include Belgian microbiota such as Brettanomyces or Lactobacillus. Unusual techniques, such as blending, may be used through primarily to arrive at a particular result. The process alone does not make a beer unique to a blind judging panel if the final product does not taste different.</INGREDIENTS>
+      <FG_MIN>1.00600000</FG_MIN>
+      <STYLE_LETTER>E</STYLE_LETTER>
+      <VERSION>1</VERSION>
+      <NOTES>Variable. This category encompasses a wide range of Belgian ales produced by truly artisanal brewers more concerned with creating unique products than in increasing sales. Unique beers of small, independent Belgian breweries that have come to enjoy local popularity but may be far less well-known outside of their own regions. Many have attained “cult status” in the U.S. (and other parts of the world) and now owe a significant portion of their sales to export. This is a catch-all category for any Belgian-style beer not fitting any other Belgian style category. The category can be used for clones of specific beers (e.g., Orval, La Chouffe); to produce a beer fitting a broader style that doesn’t have its own category; or to create an artisanal or experimental beer of the brewer’s own choosing (e.g., strong Belgian golden ale with spices, something unique). Creativity is the only limit in brewing but the entrants must identify what is special about their entry. This category may be used as an “incubator” for recognized styles for which there is not yet a formal BJCP category. Some styles falling into this classification include: • Blond Trappist table beer • Artisanal Blond • Artisanal Amber • Artisanal Brown • Belgian-style Barleywines • Trappist Quadrupels • Belgian Spiced Christmas Beers • Belgian Stout • Belgian IPA • Strong and/or Dark Saison • Fruit-based Flanders Red/Brown The judges must understand the brewer’s intent in order to properly judge an entry in this category. THE BREWER MUST SPECIFY EITHER THE BEER BEING CLONED, THE NEW STYLE BEING PRODUCED OR THE SPECIAL INGREDIENTS OR PROCESSES USED. Additional background information on the style and/or beer may be provided to judges to assist in the judging, including style parameters or detailed descriptions of the beer. Beers fitting other Belgian categories should not be entered in this category.</NOTES>
+      <IBU_MIN>15.00000000</IBU_MIN>
+      <CARB_MIN>0.00000000</CARB_MIN>
+      <COLOR_MAX>50.00000000</COLOR_MAX>
+      <CATEGORY_NUMBER>16</CATEGORY_NUMBER>
+    </STYLE>
+  </RECIPE>

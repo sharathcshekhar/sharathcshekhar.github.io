@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RECIPE>
+    <AGE>14</AGE>
+    <FERMENTATION_STAGES>1</FERMENTATION_STAGES>
+    <BATCH_SIZE>3.7854117891320316</BATCH_SIZE>
+    <SECONDARY_TEMP>21.0</SECONDARY_TEMP>
+    <TYPE>Extract</TYPE>
+    <BOIL_SIZE>4.731764736415039</BOIL_SIZE>
+    <TERTIARY_TEMP>21.0</TERTIARY_TEMP>
+    <DISPLAY_OG>0.0</DISPLAY_OG>
+    <NAME>Orange Hefeweizen</NAME>
+    <FG>1.005</FG>
+    <EQUIPMENT/>
+    <SECONDARY_AGE>0</SECONDARY_AGE>
+    <PRIMARY_AGE>14</PRIMARY_AGE>
+    <OG>1.044</OG>
+    <VERSION>1</VERSION>
+    <PRIMARY_TEMP>21.0</PRIMARY_TEMP>
+    <NOTES/>
+    <DISPLAY_FG>0.0</DISPLAY_FG>
+    <BREWER/>
+    <TERTIARY_AGE>0</TERTIARY_AGE>
+    <BOIL_TIME>45</BOIL_TIME>
+    <EFFICIENCY>100.0</EFFICIENCY>
+    <HOPS>
+      <HOP>
+        <NAME>Perle</NAME>
+        <VERSION>0</VERSION>
+        <ALPHA>8.0</ALPHA>
+        <AMOUNT>0.003543690395605944</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>30</TIME>
+        <NOTES>Slightly spicy, minty. Used for: US and German Ales and Lagers.</NOTES>
+        <TYPE>Hop</TYPE>
+        <FORM>Pellet</FORM>
+      </HOP>
+    </HOPS>
+    <FERMENTABLES>
+      <FERMENTABLE>
+        <NAME>Wheat Dry Extract</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Extract</TYPE>
+        <AMOUNT>0.4537205081669691</AMOUNT>
+        <YIELD>95.65217391304358</YIELD>
+        <COLOR>8.0</COLOR>
+        <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
+      </FERMENTABLE>
+    </FERMENTABLES>
+    <MISCS>
+      <MISC>
+        <AMOUNT_IS_WEIGHT>false</AMOUNT_IS_WEIGHT>
+        <AMOUNT>0.00591470</AMOUNT>
+        <USE_FOR>Sweet orange flavor</USE_FOR>
+        <TYPE>Misc</TYPE>
+        <VERSION>1</VERSION>
+        <NOTES>Adds a sweet flavor and aroma, reminiscent of Grand Marnier.</NOTES>
+        <NAME>Orange Peel, Sweet</NAME>
+        <USE>Boil</USE>
+        <DISPLAY_AMOUNT>0.2 oz</DISPLAY_AMOUNT>
+        <DISPLAY_TIME>10 mins</DISPLAY_TIME>
+      </MISC>
+    </MISCS>
+    <YEASTS>
+      <YEAST>
+        <NAME>Safbrew WB-06</NAME>
+        <VERSION>0</VERSION>
+        <TYPE>Yeast</TYPE>
+        <AMOUNT>0.05</AMOUNT>
+        <LABORATORY>Fermentis</LABORATORY>
+        <PRODUCT_ID>WB-06</PRODUCT_ID>
+        <MIN_TEMPERATURE>21</MIN_TEMPERATURE>
+        <MAX_TEMPERATURE>21</MAX_TEMPERATURE>
+        <ATTENUATION>86.0</ATTENUATION>
+      </YEAST>
+    </YEASTS>
+    <WATERS/>
+    <MASH>
+      <TUN_WEIGHT>0.00000000</TUN_WEIGHT>
+      <GRAIN_TEMP>20.00000000</GRAIN_TEMP>
+      <VERSION>1</VERSION>
+      <NAME>New Mash Profile</NAME>
+      <NOTES/>
+      <TUN_SPECIFIC_HEAT>0.00000000</TUN_SPECIFIC_HEAT>
+      <EQUIP_ADJUST>FALSE</EQUIP_ADJUST>
+      <TUN_TEMP>20.00000000</TUN_TEMP>
+      <SPARGE_TEMP>75.55550000</SPARGE_TEMP>
+      <PH>7.00000000</PH>
+      <MASH_STEPS/>
+    </MASH>
+    <STYLE>
+      <PROFILE>Aroma: Moderate to strong phenols (usually clove) and fruity esters (usually banana). The balance and intensity of the phenol and ester components can vary but the best examples are reasonably balanced and fairly prominent. Noble hop character ranges from low to none. A light to moderate wheat aroma (which might be perceived as bready or grainy) may be present but other malt characteristics should not. No diacetyl or DMS. Optional, but acceptable, aromatics can include a light, citrusy tartness, a light to moderate vanilla character, and/or a low bubblegum aroma. None of these optional characteristics should be high or dominant, but often can add to the complexity and balance. Appearance: Pale straw to very dark gold in color. A very thick, moussy, long-lasting white head is characteristic. The high protein content of wheat impairs clarity in an unfiltered beer, although the level of haze is somewhat variable. A beer “mit hefe” is also cloudy from suspended yeast sediment (which should be roused before drinking). The filtered Krystal version has no yeast and is brilliantly clear. Flavor: Low to moderately strong banana and clove flavor. The balance and intensity of the phenol and ester components can vary but the best examples are reasonably balanced and fairly prominent. Optionally, a very light to moderate vanilla character and/or low bubblegum notes can accentuate the banana flavor, sweetness and roundness; neither should be dominant if present. The soft, somewhat bready or grainy flavor of wheat is complementary, as is a slightly sweet Pils malt character. Hop flavor is very low to none, and hop bitterness is very low to moderately low. A tart, citrusy character from yeast and high carbonation is often present. Well rounded, flavorful palate with a relatively dry finish. No diacetyl or DMS. Mouthfeel: Medium-light to medium body; never heavy. Suspended yeast may increase the perception of body. The texture of wheat imparts the sensation of a fluffy, creamy fullness that may progress to a light, spritzy finish aided by high carbonation. Always effervescent.</PROFILE>
+      <ABV_MIN>4.30000000</ABV_MIN>
+      <CARB_MAX>0.00000000</CARB_MAX>
+      <FG_MAX>1.01400000</FG_MAX>
+      <IBU_MAX>15.00000000</IBU_MAX>
+      <TYPE>Ale</TYPE>
+      <NAME>Weizen/Weissbier</NAME>
+      <STYLE_GUIDE>BJCP 2008</STYLE_GUIDE>
+      <OG_MIN>1.04400000</OG_MIN>
+      <CATEGORY>German Wheat and Rye Beer</CATEGORY>
+      <OG_MAX>1.05200000</OG_MAX>
+      <COLOR_MIN>2.00000000</COLOR_MIN>
+      <ABV_MAX>5.60000000</ABV_MAX>
+      <EXAMPLES>Weihenstephaner Hefeweissbier, Schneider Weisse Weizenhell, Paulaner Hefe-Weizen, Hacker-Pschorr Weisse, Plank Bavarian Hefeweizen, Ayinger Brau Weisse, Ettaler Weissbier Hell, Franziskaner Hefe-Weisse, Andechser Weissbier Hefetrub, Kapuziner Weissbier, Erdinger Weissbier, Penn Weizen, Barrelhouse Hocking Hills Hefe-Weizen, Eisenbahn Weizenbier</EXAMPLES>
+      <INGREDIENTS>By German law, at least 50% of the grist must be malted wheat, although some versions use up to 70%; the remainder is Pilsner malt. A traditional decoction mash gives the appropriate body without cloying sweetness. Weizen ale yeasts produce the typical spicy and fruity character, although extreme fermentation temperatures can affect the balance and produce off-flavors. A small amount of noble hops are used only for bitterness.</INGREDIENTS>
+      <FG_MIN>1.01000000</FG_MIN>
+      <STYLE_LETTER>A</STYLE_LETTER>
+      <VERSION>1</VERSION>
+      <NOTES>A pale, spicy, fruity, refreshing wheatbased ale. A traditional wheat-based ale originating in Southern Germany that is a specialty for summer consumption, but generally produced year-round. These are refreshing, fast-maturing beers that are lightly hopped and show a unique banana-and-clove yeast character. These beers often don’t age well and are best enjoyed while young and fresh. The version “mit hefe” is served with yeast sediment stirred in; the krystal version is filtered for excellent clarity. Bottles with yeast are traditionally swirled or gently rolled prior to serving. The character of a krystal weizen is generally fruitier and less phenolic than that of the hefe-weizen.</NOTES>
+      <IBU_MIN>8.00000000</IBU_MIN>
+      <CARB_MIN>0.00000000</CARB_MIN>
+      <COLOR_MAX>8.00000000</COLOR_MAX>
+      <CATEGORY_NUMBER>15</CATEGORY_NUMBER>
+    </STYLE>
+  </RECIPE>
