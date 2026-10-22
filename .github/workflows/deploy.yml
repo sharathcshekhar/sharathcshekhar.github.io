@@ -29,7 +29,8 @@ jobs:
 
       - name: Build Static Site
         env:
-          SITE_EMAIL: ${{ secrets.SITE_EMAIL }}
+          EMAIL: ${{ secrets.EMAIL }}
+          SITE_EMAIL: ${{ secrets.EMAIL }}
         run: |
           python3 build.py
 
