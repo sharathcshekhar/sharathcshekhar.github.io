@@ -33,9 +33,6 @@ experience:
         period: "Sep 2018 – Feb 2022"
         badge: "Digital Biomarkers"
         summary: "Conducted systems research and platform engineering for digital health data collection, biomarker extraction, and pilot studies."
-        highlights:
-          - "Engineered end-to-end data collection framework used in clinical trials and university research collaborations."
-          - "Collaborated with clinical research partners to deploy scalable sensor data capture and analysis tools."
 
   - company: "Amazon Web Services (AWS)"
     role: "Software Development Intern — Redshift Team"
