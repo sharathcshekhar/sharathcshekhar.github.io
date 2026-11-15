@@ -1,16 +1,16 @@
 {
   "title": "Sharath Chandrashekhara",
   "author": "Sharath Chandrashekhara",
-  "role": "Software Architect | GenAI for Health",
+  "role": "Systems Architect | GenAI for Health",
   "institution": "Samsung Research America",
   "tagline": "Explorer by nature · Geek by choice",
-  "description": "Personal website of Sharath Chandrashekhara, Ph.D. — Software Architect | GenAI for Health at Samsung Research America.",
+  "description": "Personal website of Sharath Chandrashekhara, Ph.D. — Systems Architect | GenAI for Health at Samsung Research America.",
   "email": "",
   "office": "Silicon Valley, CA",
   "avatar": "assets/images/profile.png",
   "logo": "assets/images/ub-logo.png",
   "beer_logo": "assets/images/glass.png",
-  "resume_url": "assets/files/resume.pdf",
+  "resume_url": "assets/files/cv.pdf",
   "nav": [
     { "title": "Home", "url": "index.html", "id": "home" },
     { "title": "Work", "url": "work.html", "id": "work" },
@@ -28,7 +28,7 @@
     }
   ],
   "social": {
-    "cv": "assets/files/resume.pdf",
+    "cv": "assets/files/cv.pdf",
     "email": "",
     "scholar": "https://scholar.google.com/citations?user=IMGkO4MAAAAJ&hl=en",
     "github": "https://github.com/sharathcshekhar",

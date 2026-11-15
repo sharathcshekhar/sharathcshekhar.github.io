@@ -7,32 +7,31 @@ experience:
   - company: "Samsung Research America"
     location: "Silicon Valley, CA"
     period: "Sep 2018 – Present"
-    tenure: "Sep 2018 – Present · 6+ yrs"
+    tenure: "Sep 2018 – Present · 8+ yrs"
     url: "https://sra.samsung.com/research-area/digital-health/"
     roles:
       - role: "Staff Research Engineer II — System Architecture for GenAI"
         period: "Feb 2024 – Present"
         badge: "GenAI & Systems"
-        summary: "Leading systems and infrastructure strategy in Digital Health Lab, architecting modular, event-driven cloud frameworks for LLM-based health and wellness applications."
+        summary: "Lead system architecture in the Digital Health Lab—shipping GenAI prototypes from early research to commercial production (Samsung Health Assistant)."
         highlights:
-          - "Architecting event-driven cloud infrastructure for LLM-based agents and personalized wellness applications across mobile and wearable platforms."
-          - "Overseeing LLMOps, prompt management pipelines, benchmarking, guardrails, and chatbot evaluation frameworks."
-          - "Coordinating technical integration across geographically dispersed sites to ensure high-availability and reliability standards for distributed AI systems."
+          - "Architecting multi-agent and conversational AI frameworks to personalize health coaching across mobile and wearable platforms—driving R&D across prompt engineering, fine-tuning, and safety guardrails."
+          - "Leading systems and infrastructure strategy for a modular, resilient, event-driven LLM runtime—covering service orchestration, prompt versioning, and LLM-as-Judge evaluation pipelines."
+          - "Steering cross-site technical integration across 4 global engineering sites to maintain shared architectural standards and mentoring junior engineers."
 
       - role: "Staff Research Engineer — Systems & Digital Health Platform"
         period: "Feb 2022 – Feb 2024"
         badge: "Digital Health Platform"
-        summary: "Spearheaded SRA's flagship healthcare platform, architecting HIPAA-compliant cloud pipelines and microservices for clinical research and commercial adoption."
+        summary: "Spearheaded core architecture for SRA's clinical research platform, forming the architectural foundation for the commercial Samsung Health Research Stack."
         highlights:
-          - "Architected HIPAA-compliant data ingestion and processing pipelines for clinical trials, EHRs, wearables, and medical IoT devices."
-          - "Designed secure API interfaces, fine-grained access control models, and microservices for automated ML pipeline execution on raw sensor data."
-          - "Graduated core research prototypes into the commercial Samsung Health Stack product."
+          - "Architected a HIPAA/SOC 2-compliant SaaS platform (10K+ users) for clinical trials, continuous wearable sensor ingestion, and automated ML scoring."
+          - "Designed RESTful APIs, health data schemas, and backend services with immutable audit logs and granular access policies to safely expose anonymized data to researchers, alongside applied research on wearable digital biomarkers (multiple IEEE publications)."
         url: "https://developer.samsung.com/health/research"
 
       - role: "Senior Research Engineer — Digital Health Lab"
         period: "Sep 2018 – Feb 2022"
         badge: "Digital Biomarkers"
-        summary: "Conducted systems research and platform engineering for digital health data collection, biomarker extraction, and pilot studies."
+        summary: "Engineered data collection pipelines, real-time wearable streaming architectures, and ML-driven biomarker analysis tools deployed across partner hospital clinical trials." 
 
   - company: "Amazon Web Services (AWS)"
     role: "Software Development Intern — Redshift Team"
@@ -69,4 +68,4 @@ experience:
     url: "http://www.cisco.com/"
 ---
 
-Over 10 years of industry experience across distributed cloud infrastructure, digital health platforms, GenAI systems, enterprise storage, and database engines.
+11+ years of industry experience across distributed cloud infrastructure, digital health platforms, GenAI systems, enterprise storage, and database engines.

@@ -14,7 +14,7 @@ courses:
 
   - code: "CSE 486 / 586"
     name: "Distributed Systems"
-    instructor: "<a href=\"https://steveyko.github.io/teaching/\" target=\"_blank\" rel=\"noopener\">Dr. Steve Ko</a>"
+    instructor: "<a href=\"https://steveyko.github.io/teaching/\" target=\"_blank\" rel=\"noopener\">Dr. Steven Y. Ko</a>"
     terms: "Spring 2015, Spring 2016, Spring 2017"
     badge: "Distributed Systems"
     url: "https://steveyko.github.io/teaching/"

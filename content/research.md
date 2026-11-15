@@ -5,9 +5,9 @@ heading: Research & Systems
 tagline: Distributed systems, digital health platforms, and GenAI for wellness
 ---
 
-My research focuses on the design, implementation, and evaluation of computer systems. My core strength lies in bringing architectural structure to nascent research challenges—transforming complex ideas into stable, scalable, and production-ready systems.
+My research focuses on the design, implementation, and evaluation of computer systems. My core strength lies in bringing architectural structure to ambiguous research challenges—transforming early-stage concepts into stable, resilient, production-grade systems.
 
-My work spans **GenAI systems and agentic frameworks for personalized wellness**, **HIPAA-compliant digital health platforms**, and **flexible mobile storage architectures**.
+My work spans **GenAI systems and agentic frameworks for personalized wellness**, **HIPAA/SOC 2-compliant digital health platforms**, and **flexible mobile storage architectures**.
 
 ---
 
@@ -15,11 +15,11 @@ My work spans **GenAI systems and agentic frameworks for personalized wellness**
 
 ### GenAI for Wellness & Agentic Frameworks
 
-At Samsung Research America, I lead systems and infrastructure strategy evaluating foundational models, prompt management systems, RAG pipelines, LLM guardrails, and agentic workflows for health and wellness applications across mobile and wearable platforms.
+At Samsung Research America, I lead systems and infrastructure strategy for modular, event-driven LLM runtimes, prompt management, RAG pipelines, safety guardrails, and multi-agent coaching workflows powering [Samsung Health Assistant](https://news.samsung.com/us/samsung-launches-health-assistant-beta-first-fully-integrated-ai-powered-assistant/) across mobile and wearable platforms.
 
 ### Digital Health & Wearable Biomarkers
 
-In the [Digital Health Lab](https://sra.samsung.com/research-area/digital-health/) at Samsung Research America, architecting end-to-end data collection and processing platforms for healthcare research and clinical trials, including ML-driven biomarker detection and dynamic multi-sensor fusion from wearable and earbud sensors (e.g., *MAD-Fusion* modality-aware dynamic fusion in IEEE IoTJ '26, *MindfulBuddy* breathing biofeedback in IEEE IoTJ '25, *Cough-DL* ear-worn detection in IEEE EMBC '24).
+In the [Digital Health Lab](https://sra.samsung.com/research-area/digital-health/) at Samsung Research America, I architected HIPAA/SOC 2-compliant data collection and processing platforms for healthcare research and clinical trials (foundational to [Samsung Health Research Stack](https://developer.samsung.com/health/research)), alongside applied research on ML-driven biomarker detection and dynamic multi-sensor fusion from wearable and earbud sensors (e.g., *MAD-Fusion* modality-aware dynamic fusion in IEEE IoTJ '26, *MindfulBuddy* breathing biofeedback in IEEE IoTJ '25, *Cough-DL* ear-worn detection in IEEE EMBC '24).
 
 ### BlueMountain: Flexible Data Management on Mobile Systems
 
